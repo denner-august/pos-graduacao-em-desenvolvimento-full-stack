@@ -1,4 +1,4 @@
-# Pucrs PÓS-GRADUAÇÃO Desenvolvimento Full Stack
+# Puc-rs PÓS-GRADUAÇÃO Desenvolvimento Full Stack
 
 ## Este repositório engloba todo meu aprendizado durante minha pós-graduação em desenvolvimento full stack pela PUCRS.
 
