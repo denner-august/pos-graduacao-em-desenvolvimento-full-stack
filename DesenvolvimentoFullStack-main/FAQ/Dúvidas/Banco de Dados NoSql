@@ -1,0 +1,96 @@
+## Comentários e Perguntas:
+
+Pergunta 1 - No livro fala que o CassandraDB possui "leituras mais lentas que escrita", mas por se tratar de um banco colunar, não deveria ser ao contrário? exemplo do 
+BigQuery que é utilizado para análise
+
+Resposta 1 - Na verdade está correto. Este tipo de banco é baseado em documentos, com agregações, etc. logo, ele pode ser alterado e inserido novas colunas, devido a sua 
+flexibilidade. diferente do SQL. No exemplo o professor quis ressaltar que bancos de dados NoSQL suportam múltiplos dados em mesmos documentos, demonstrando sua 
+flexibilidade, possibilidade de alteração nos documentos, mas ele também deixa registrado essa questão da "leituras mais lenta que a escrita" por se tratar de um banco 
+de dados que pode sim, receber muitos dados e devido a isso, tornar a leitura um pouco mais lenta. A lentidão é de segundos, em relação ao SQL.
+
+Pergunta 2 - Noo caso do Cassandra, ele tem as keys e as réplicas que são utilizadas quando esta sendo feita a leitura, tem até o exemplo do criador, o Facebook q 
+utilizava pra fazer a busca de mensagens, por estas questões deveria ser mais rápida a leitura, não?
+
+Resposta 2 - Sim, neste sentido tens razão, mas ainda assim, a leitura não é demorada não, é questão de segundos. 
+
+Resposta 2 - Contribuição: fiquei curioso com sua observação e encontrei esse trecho: "Primeiro, gravar dados é muito rápido no Cassandra, porque seu design não requer a realização 
+de leituras ou buscas em disco. muitos bancos de dados. Todas as gravações no Cassandra são apenas anexadas. Devido ao log de confirmação do banco de dados e ao design de transferência 
+sugerido, o banco de dados é sempre gravável e, dentro de uma família de colunas, as gravações são sempre atômicas." (https://www.oreilly.com/library/view/cassandra-the-definitive/9781491933657/ch09.html). 
+Tem esse outro trecho de outro site que explica melhor ainda: "Cassandra não se preocupa com o valor existente da coluna que está sendo modificada, ela pula a parte lida completamente 
+e cria um registro na memória incluindo coluna e valor atualizado. Em seguida, agrupa inserções e atualiza na memória e, em intervalos, grava sequencialmente os dados no disco no modo de anexação. 
+A cada descarga, os dados são gravados em arquivos imutáveis ​​e nunca são substituídos. Como resultado, ao pular a verificação de arquivos de dados longos e adicionar novamente mesmos arquivos 
+de dados longos, as gravações levam muito menos tempo no Cassandra." (https://www.linkedin.com/pulse/why-cassandra-writes-faster-than-traditional-rdbms-vishal-kharjul/).
+
+Pergunta 3 - Estou com uma curiosidade referente aos Relacionamentos "identificadores" e "não identificadores" apresentados por volta dos 25m dessa aula.
+Eu trabalho com diversos frameworks que utilizam Object Relational Mapping  (Django, Spring, Prisma, etc.) e, se eu entendi o conceito corretamente, neles todos os 
+relacionamentos são "não identificadores", ou seja, por padrão todo ID de uma Foreign Key é um auto increment ou um UUID, etc. Portanto eu nunca havia visto qualquer menção 
+de "Relacionamentos Identificadores" antes.Com base nisso, eu fiquei gostaria de perguntar:- Em quais casos específicos acaba sendo mais interessante modelarmos uma relação com 
+Relacionamentos Identificadores e quais são as vantagens e/ou o que se espera ganhar com essa abordagem? (Eu penso em performance de busca, talvez seja mais eficiente e econômico do 
+que criar Indexes no banco.
+
+Resposta 3 - Só esclarecendo as vantagens: são altamente escaláveis e podem lidar com grandes volumes de dados. Eles geralmente são projetados para serem distribuídos em vários servidores, 
+permitindo a adição de mais capacidade de armazenamento e processamento conforme necessário. Esses bancos de dados geralmente não são normalizados e podem armazenar dados redundantes para 
+obter melhor desempenho. Desvantagem: Bancos de Dados NoSQL podem ser menos seguros do que seus equivalentes SQL, pois muitas vezes não possuem integridade referencial ou controle de transações, 
+o que pode levar a inconsistências de dados. Eles também podem exigir que os usuários escrevam código personalizado para acessar os dados, o que pode exigir mais habilidades técnicas. Quanto a 
+tua pergunta sobre relacionamentos não identificadores: é que os dados são armazenados em pares de chave-valor, o que significa que cada dado é identificado por uma chave única. Quais casos usar 
+relacionamentos identificadores: vou te indicar este link: https://learn.microsoft.com/pt-br/azure/architecture/data-guide/big-data/non-relational-data. Vai em Chave-Valor que está bem claro. 
+
+Comentário 1 - Acredito que a aula esteja desatualzada com relação ao sistemas de transações do MongoDB. Segundo este [link](https://www.mongodb.com/docs/manual/core/transactions/) atualmente 
+é suportavel o uso de transações entre documentos.
+
+Resposta 1 - Sim, também utilizando o Mongo, como Maria ou Cassandra, todos suportam transações entre documentos. 
+
+Pergunta 4 -  Não entendi a parte que de um lado do losango a cardinalidades está (1,1) e do outro está (0,n). Pode me explicar melhor? A cardinalidade não 
+teria que ser uma só para o relacionamento? 
+
+Resposta 4 - A cardinalidade liga uma entidade a uma ação. Assim é necessária está cardinalidade dos dois lado, pois um cliente pode fazer nenhum ou um cliente e por isso (0,n), 
+e o estabelecimento pode sim, não ter pedido algum, certo?¹. Já do lado do pedido, o estabelecimento pode receber nenhum ou vários pedidos, e por isso (0,n). A multiplicidade, que 
+está na figura a baixo reflete o mesmo cenário, só que a simbologia é um pouco diferente, visto que, novamente o cliente pode fazer nenhum pedido ou vários. 
+
+Comentário 3 - Nem todos os bancos de dados NoSQL são orientados a documentos.
+
+Resposta 3 - Está correto que um banco de dados Relacional exige um esquema prévio. Sem definir a estrutura de uma tabela não é possível criá-la, ao contrário 
+dos bancos de dados NoSQL (também conhecidos como Sem Esquemas Prévios) onde os dados podem ser inseridos sem antes definirmos uma estrutura prévia. Porém existem bancos 
+de dados não relacionais que são orientados a diferentes tipos, como os exemplos abaixo: 
+Tipos de NoSQL:
+▪ Tipo COLUNA (ex. Cassandra)
+▪ Tipo DOCUMENTO (ex. MongoDB) ---> Note que destes exemplos apenas o MongoDB é orientado a documento.
+▪ Tipo CHAVE-VALOR (ex. Couchbase)
+▪ Tipo GRAFO (ex. OrientDB)
+▪ Tipo MULTIMODELOS (ex. ArangoDB).
+NoSQL é indicado para aplicações que: 
+▪ Lidam com grande volume de dados 
+▪ Exigem alto desempenho nas consultas e escritas 
+▪ Exigem escalabilidade horizontal
+Em relação a resposta da questão mencionada: A alternativa "São empregados para implementação de soluções complexas." não está correta porque também podem ser indicados 
+para soluções menos complexas, com as características acima. Além disso os BD Relacionais também são usados para implementação de soluções complexas. Então essa não é a 
+sua principal característica. A principal característica de um BD NoSQL (em geral) é não possuir um esquema prévio. Embora a maioria dos bancos de dados NoSQL seja conhecida 
+por ser schemaless (sem esquema) ou ter um esquema flexível, existem algumas exceções que mantêm um esquema definido ou semi-estruturado. Um exemplo é o Cassandra, um banco 
+de dados distribuído altamente escalável que permite definir um esquema de tabela antes de criar os dados. Embora ofereça flexibilidade em termos de adição de novas colunas 
+sem afetar os dados existentes.
+
+Comentário 4 - Material incompleto do Exemplo prático.
+
+Resposta 4 - Se tu fores em Desenvolvimento Full Stack--> Conteúdo --> Disciplina Banco de dados No SQL, encontrarás material complementar. Lá tu encontrarás 
+o que precisa para complementar o exemplo prático. 
+
+Comentário 5 - Eu sei que esse material está disponível, porém, a imagem do Docker dos exemplos não está disponível.
+
+Resposta 5 -  A imagem do Docker, tu podes selecionar a que tu quiseres, até para testar. Não há necessidade de usar a imagem do exemplo. Espero ter sido mais clara. 
+Qualquer coisa chama. 
+
+Pergunta 5 - Estou com uma dúvida referente ao procedimento de bind da porta do container com a máquina host local, apresentado no exemplo prático de MongoDB 
+(Aula 02, Parte 2, minuto 19). O professor apresenta o comando "docker run mongo -p 27017:27017" para fazer o bind. Ao replicar o exemplo na minha máquina, ao dar esse comando, 
+o seguinte erro é retornado "Error parsing command line: unrecognised option '-p'". Busquei o erro em fóruns, mas não encontrei nada que me ajudasse nesse caso. Tens alguma sugestão 
+do que posso verificar para entender o que estou fazendo errado e como corrigir?
+
+Resposta 5 - Acredito que esteja com container duplicado e por isso do erro. Verifica o container, se por acaso não está duplicado, deleta um deles se estiver e tenta o comando novamente. 
+Comandos para verificação de suplicação: docker pull mongo:latest  e docker run --name mongo -d mongo:latest. 
+
+Pergunta 6 - Foi dito na aula 1 parte 3 que teria uma atividade, eu não estou encontrando onde ela está?
+
+Resposta 6 - Está no livro da disciplina. Entra na disciplina, na sala de aula virtual e faz o download do livro. Por aqui não consigo enviar. Arquivo muito grande.
+
+Pergunta 7 - Encontrei apenas os exercícios de fixação e não o exercício de modelagem mostrado no slide.
+
+Resposta 7 - Vai em Desenvolvimento Full Stack --> Conteúdo --> Disciplina e baixa o material, todo, que os professores disponibilizaram para vocês. Está em material. 

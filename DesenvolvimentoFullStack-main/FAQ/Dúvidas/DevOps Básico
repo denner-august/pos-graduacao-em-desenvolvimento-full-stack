@@ -1,0 +1,278 @@
+## Comentários e Perguntas:
+
+Perunta 1 - Seria possível compartilhar o conteúdo do arquivo de workflow?
+
+Resposta 1 -  Workflow já está será disponibilizado na sala de aula virtual. 
+
+Cometário 1 - O programa de medir temperatura usado como exemplo não está mais disponível no repositório do professor.
+
+Resposta 1 - O código está disponível na plataforma, na disciplina. 
+
+Pergunta 2 - Sobre o uso de MongoDB em containers. Como podemos persistir os dados do banco de dados quando um container for reiniciado ou removido? 
+Seria utilizando volumes? Se sim, poderia me passar algum exemplo de uso de  volumes e MongoDB? 
+
+Resposta 2 - Vocês terão a disciplina de Banco de Dados NQL, mas podes consultar a documentação em: https://www.mongodb.com/docs/
+
+Comentário 2 - Obrigado pela dica, porém ao verificar o npm não estava instalado no meu setup.
+
+Resposta 2 - Quando tu instala o node.js, por padrão o npm já é instalado em conjunto. Tentar usar, então o comando install express, sem o npm. Me avisa se deu certo.
+
+Pergunta 3 - Vcs poderiam disponibilizar o arquivo '.github/workflows/main.yml' utilizado no Actions do Github para execução do pipeline de CI? 
+
+Resposta 3 - Estou te enviando o modelo que eu utilizei leia os comentários para fazer as alterações para se adequar ao seu projeto e a sua conta no dockerhub e 
+github você também vai ter que trocar a extensão de .txt para .yml. (O modelo foi enviado pelo aluno Paulo Giovani Lim de Carvalho e está no matrix).
+
+Pergunta 4 - Qual a ferramenta de hospedagem de sistemas web será utilizada: O Heroku ou outra? Recentemente o Heroku tornou-se pago e, se possível, gostaria de saber 
+qual a sugestão será dada em nossa pós-graduação. 
+
+Resposta 4 - A ferramenta que será usada ainda está em processo de avaliação pela coordenação, visto que sim, o Heroku tornou-se uma ferramenta paga, Assim que tiver a 
+resposta, retorno.
+
+Pergunta 5 - Não consegui encontrar o projeto de conversão de temperatura no seu GitHub... o endereço mudou? Se sim, poderia me passar o novo endereço contendo: todas 
+as mudanças feitas ao longo da aula 2 assim como a parte do YAML do GitHub Actions que você configurou?
+
+Resposta 5 - O projeto está em Conteúdo --> Disciplina. Enviei arquivo solicitado no Matrix.
+
+Pergunta 6 - Com relação à parte de ferramentas de CI/CD, você comentou sobre GitHub Actions (até utilizou nas aulas), e falou de outras. Eu uso o Azure DevOps 
+Pipelines na empresa onde trabalho e sempre foi dito bastante que um grande benefício é a questão de que o DevOps Pipelines tem seu agente próprio para execução de 
+código. Qual sua opinião sobre o estado atual de outras ferramentas como o GitHub Actions e até mesmo o TravisCI / Bitbucket Pipelines / Jenkins no que diz respeito 
+à disponibilidade de agentes para execução de código, que é importante principalmente nas rotinas de CI?
+
+Resposta 6 - A questão é interessante e complexa. É muito difícil obter e manter um comparativo atualizado sobre um conjunto de ferramentas complexas e em constante 
+evolução. Faço alguns comentários que podem ajudar a colocar essa preocupação em um contexto mais prático, de escolha de uma ferramenta em um projeto em particular. 
+No caso de uma necessidade de migração, temos comparativos entre a ferramenta atual e a pretendida (ex., Yermakhanov, 2023). As equipes especializadas monitoram 
+regularmente diversos parâmetros da execução das automações utilizadas. Somente com dados concretos de um projeto específico se pode ter certeza dos benefícios 
+alcançados pela adoção de uma função particular. Do ponto de vista prático, na maior parte do tempo estamos empenhados em usar melhor a ferramenta escolhida o que 
+ocorre com ajustes e estudos constantes. Em geral, seria recomendado utilizar as funções de mais alto nível disponíveis. Dessa forma se pode completar a tarefa mais 
+rapidamente e obter um referência (“baseline"). Com essa referência se pode avaliar se as mudanças sendo realizadas trazem os benefícios esperados. No nível de maior 
+controle, “self-hosted”, o desempenho depende da habilidade do participante da equipe que escreve os roteiros automatizados. Nesse nível, existe pouca diferença 
+entre as ferramentas citadas. A rotina transcorre como foi prevista. No caso de menor controle, “Microsoft-host”, podemos contar com a habilidade de um especialista 
+da Microsoft que fará uma configuração adequada para maior parte dos projetos. Nesses casos em que se transfere parte da responsabilidade para o fornecedor da solução 
+de nuvem se pode obter maior produtividade. Seria o caso ideal para um projeto recente, equipes pequenas ou com pouca experiência. (Microsoft, 2023). Nesse caso de 
+menor controle, uma das vantagens está no compartilhamento de pastas e registro de aplicações de uma etapa para outra da rotina de CI. (Microsoft, 2023). Todas as 
+plataformas oferecem imagens de disco, contêneires e máquinas virtuais pré-configuradas. O código do agente pode ser proveniente do fornecedor do serviço ou de 
+membros da comunidade. No caso do GitHub Actions existe um destaque e uma facilidade de localizar “actions" que foram configuradas por especialistas das mais diversas 
+tecnologias. No restante, acaba se encontrando um recurso que compensa uma ausência (ver exemplos em Yermakhanov, 2023). Note-se que as ferramentas tem um compromisso 
+de compatibilidade com versões anteriores. Isso ajuda a explicar as pequenas variações entre ferramentas que precisam manter o investimento feito pelas equipes. A 
+vantagem em se utilizar, o Azure DevOps Pipelines dependeria da complexidade das rotinas de CI utilizadas pelo projeto e da oportunidade em se utilizar funções 
+exclusivas do Azure.  Neste ponto do curso, em utilização básica, acredito que encontraremos demandas simples e resultados igualmente satisfatórios em todas as 
+ferramentas indicadas. Em um uso mais avançado, se poderia notar a ausência de uma função que o projeto teria demanda ou uma diferença maior em desempenho e, 
+principalmente, em custos. Por exemplo, é muito provável que o GitHub Actions execute sobre a nuvem pública do Azure, dado que o GitHub foi adquirido pela Microsoft. 
+Sendo assim, a capacidade de utilizar de forma mais eficiente os agentes de execução depende do engenheiro que configura a execução do GitHub Actions e da capacidade 
+da interface do GitHub Actions em acessar a parametrização do Azure. Realizar testes com diferentes ferramentas sobre as rotinas de CI de um projeto seria a maneira 
+mais correta de determinar se existe diferença significativa entre as alternativas, considerando as demandas específicas. A migração é uma tarefa demorada e com 
+seus próprios riscos e custos. Na maior parte das vezes, o projeto não tem autonomia para solicitar a migração, exceto se puder argumentar concretamente sobre as 
+vantagens obtidas. No momento, o maior limitador é o custo. Com um maior custo, se pode obter maior controle e maior desempenho. Raramente esse seria o caso, 
+exceto em aplicações extensas e com demandas muito altas de disponibilidade. Cenários esses que não se incluem no DevOps Básico. Na maior parte dos projetos a 
+escolha entre as alternativas citadas depende mais de ecossistemas e custos. No caso de uma organização de implanta software na nuvem pública da Amazon ou da Google, 
+talvez o uso da nuvem pública do Azure possa ter menores vantagens. No caso oposto, se a hospedagem de itens de desenvolvimento, teste e de operação ocorrem todos 
+no Azure, parece nos indicar que um único fornecedor e um único contrato traria os maiores benefícios. É uma constante preocupação monitorar e decidir pela migração 
+por uma melhor ferramenta. Essa é uma decisão arquitetural e se espera que o projeto permaneça em uma mesma ferramenta por um longo tempo (cinco anos ou mais). As 
+ferramentas estão em constante evolução. Uma função que se destaca em uma ferramenta acaba por ser imitada por outras ferramentas em um prazo curto (inferior a um 
+ano). O “roadmap" da ferramenta utilizada esclarece as funções que serão oferecidas nas próximas atualizações. Mesmo dando falta de uma função, podemos decidir 
+aguardar pela próxima atualização e evitar migrar para outra ferramenta. Outra forma de evitar a necessidade de uma rotina de CI muito extensa e complexa seria 
+adotar arquiteturas adequadas para sistemas extensos como arquitetura modular e arquitetura de microserviços. Nessas arquiteturas, o projeto é dividido em componentes 
+que são integrados, testados e implantados sob demanda e em paralelo por se tratarem de projetos independentes. Referência: MICROSOFT. Azure Pipelines agents. Consulta em fevereiro de 2023.
+https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser e Yermakhanov, Max. Azure Pipelines vs. GitHub Actions: Key 
+Differences. Consulta em fevereiro de 2023. https://medium.com/objectsharp/azure-pipelines-vs-github-actions-key-differences-45390ab132ee.
+
+Pergunta 7 - Fazendo o projeto junto com a aula acabei encontrando dificuldade ao escrever os camando do github-actions. No momento de instalar o mocha ao ir para o 
+diretório src acontece um erro em que o github diz não existir tal arquivo ou diretório. Alguém já passou por isso e conseguiu resolver?
+
+Resposta 7 - Por o que pude notar, não há configuração do CI. Estou te enviando arquivo para te auxiliar nesta dúvida. Este arquivo é uma contribuição de um colega de 
+curso. 
+
+Pergunta 8 - Quando você cria uma imagem do NODE pra rodar a aplicação, qual sistema operacional ele vai rodar? Porque você tinha criado uma imagem LINUX pra rodar o banco de dados.
+
+Resposta 8 - Como se trata de uma imagem e existe a necessidade de criar o container, a aplicação rodará no teu Sistema Operacional, não precisando ser, necessariamente, Linux. Dá uma 
+olhadinha neste link: https://blog.rocketseat.com.br/introducao-ao-docker-criando-um-servidor-web-com-node-js-e-subindo-para-o-container/ .
+
+Pergunta 9 - No código utilizado pelo professor do arquivo Dockerfile (17min e 20 seg) está com o código abaixo transcrito: Chat, tenho uma dúvida sobre comandos dentro de um Dockerfile. Poderia me ajduar?
+Os comandos são:
+1 FROM node:16.13.2
+2 WORKDIR /app
+3 COPY package*.json ./
+4 RUN npm install
+5 COPY . .
+6 CMD ["node", "server.js"]
+Na linah 3 ele copia os arquivos ".json" para "/app" utilizando o comando "./" , Já na linah 5, ele copia todos arquivos para ".app" utilizando apenas "." . Existe diferença entre 
+esses comandos? Por que foi utilizado "./" no primeiro e apenas "." no segundo?
+
+Resposta 9 - No primeiro caso tu estas indicando a cópia do arquivo que queres copiar e por isso do uso do comando  COPY package*.json ./. Já no segundo caso COPY . . tu estas fazendo 
+a cópia de todos os arquivos, logo há diferença sim. No COPY da linha 3 tu indica, daquela forma como fazer cópia de um arquivo específico, Agora ao utilizar o comando COPY. . tu 
+estás solicitado a copia de tudo e não especificando apenas um ou outro arquivo.
+
+Pergunta 10 - Eu havia entendido que noprimeiro caso estávamos copiando arquivos específicos e no segundo estavamos copiando tudo. Minha dúvida está na última parte do cópido das linhas 
+3 e 5. Por que na linha 3 eu utilizo "./" para indicar o destino dos arquivo copiados e na linha 5 utilizo apenas "." para indicar o destino?
+
+Resposta 10 - Sim, é isso.
+
+Pergunta 11 - Segunda tentativa frustrada. Quando vc faz o git clone entra num diretório q não estava no script e tento fazer o mesmo mas dá erro. não aceita o clone. Professor diz 
+que há um link, mas onde?? mo pdf não tem. As coisas não estão batendo. Como não consegui deletar os comentários anteriores, faço aqui uma retratação. A aula não tem qualquer problema e 
+muito menos o professor. Descobri que o problema estava entre o teclado e a cadeira... Tudo que o Fabricio passou funciona perfeitamente, Peço desculpas pelo inconveninte. 
+
+Resposta 11 - Que bom que conseguiste.
+
+Pergunta 12 - O código git clone não é reconhecido, conseguem me ajudar?
+Mensagem de erro:
+git : O termo 'git' não é reconhecido como nome de cmdlet, função, arquivo de script ou programa operável. Verifique a grafia do nome ou, se um caminho tiver sido incluído, 
+veja se o caminho está correto e tente novamente.No linha:1 caractere:1+ git clone git@github.com:leandrooborges/aula_devops.git+ ~~~    + CategoryInfo          : ObjectNotFound: (git:String) [], 
+CommandNotFoundException    + FullyQualifiedErrorId : CommandNotFoundException.
+
+Resposta 12 - Tu fez o Download e instalou o Git na tua máquina? Caso não tenha instalado, faça o processo e depois execute esse comando novamente. Caso já tenha p Git instalado será 
+necessário adicioná-lo às variáveis de ambiente do Windows, assim: Para acessar as variáveis de ambiente basta seguir os passos abaixo:
+1 - Clique no campo de pesquisa do Windows e pesquise por variáveis de ambiente, clique no primeiro resultado da pesquisa.
+Será aberto uma nova janela com o nome Propriedades do sistema, clique na aba Avançado.
+2 - Nesta aba clique no botão Variáveis de Ambiente encontra-se abaixo e a direita.
+Uma nova janela com o nome Variáveis de ambiente será aberta, no campo Variáveis do usuário procure e clique em Path.
+3 - Clique no botão Editar que está à direita da tela.
+4 - Nesse momento será aberto a janela Editar a Variável de Ambiente, clique no botão Novo à direita da janela.
+5 - No campo de edição que será ativo, informe o caminho da instalação do Git, por padrão a instalação ocorre no seguinte caminho, C:\Program Files\Git.
+6 - Clique em OK nas janelas que foram abertas, Editar a Variável de Ambiente, Variáveis de ambiente e Propriedades do sistema.
+7 - Nesse momento, reinicie o terminal caso esteja aberto e execute um comando git. 
+
+Pergunta 13 - Estou assistindo as aulas e estou tendo certa dificuldade de assimilar tudo pois não tenho experiência como desenvolvedor e minha primeira 
+graduação não é da área de TI, e a maioria dos ensinamentos não são voltados à novatos. Você poderia indicar algum material auxiliar para ser utilizado 
+como background para as aulas não apenas deste módulo como dos anteriores também? Principalmente sobre a questão de Análise de Sistemas.
+
+Resposta 13 - Olha a bibliografia básica e complementar da disciplina, ela vai te dar um bom parâmetro para retirada de dúvidas. Tu podes ainda, 
+enviar tuas dúvidas de forma pontual para que eu possa te ajudar.
+
+Pergunta 14 - O material de apoio que está disponível nas aulas é apenas o slide que o professor utiliza. Ha algum material a mais fora isso? Pois não consigo localizar na plataforma.
+As minhas dúvidas estão voltadas ao fato de professor tomar como base que já temos um conhecimento das metodologias e que já usamos parte dessas tecnologias e procedimentos no nosso dia a dia. 
+No meu caso eu estou fazendo um transicionamento de carreira e muitas vezes eu me perco completamente. Por exemplo, na Aula 2 dessa disciplina o professor começa a falar do Linux Ubuntu e 
+mencionar processos e comandos mas nunca foi introduzido essa tecnologia, e outra coisa é que todo esse processo está sendo passado antes de aprendermos a base do desenvolvimento de sistemas, 
+o que faz tudo que é explicado ser bem vago e figurativo. Por exemplo, eu tenho um conhecimento bom no Front End mas não tenho muito conhecimento em NodeJS e banco de dados ainda, mas 
+o professor parece levar o ritmo da aula como se já fosse algo que eu já deveria saber. Enfim, só gostaria de ajuda em relação a estes fatores, pois todas essas primeiras disciplinas estão 
+sendo bem difíceis de absorver por serem bem vagas, pois parece que não estamos partindo do inicio.
+
+Resposta 14 - Entendo. No final de cada slide de aula ou livro, temos a bibliografia básica e complementar. Se entrares no site da Biblioteca da PUCRS, podes baixar os livros destas bibliografias. 
+São os mais indicados para retirada das dúvidas. Me faz uma gentileza? Pontua as tuas dúvidas, por exemplo: Como eu instalo o Ubundo? Quais comandos utilizo, via terminal para instalar programas 
+no Ubunto? O que são banco de dados Mysql e Nosql? Como programo com o backend Node,js. Assim, fica mais fácil de te auxiliar na dúvidas. Se quiseres reunir todas tuas dúvidas e enviar por e-mail, 
+segue: marcia.flores@pucrs.br. Vou aguardar teu e-mail para poder te auxiliar.
+
+Pergunta 15 - Achei essa questão da prova um tanto estranha. Pois geralmente quando se é utilizado um pull request a equipe ira analisar o código e verificar os problemas, quando um push vou 
+empurrar para o repositório remoto as alterações. "Ao utilizar o GitHub Actions podem ser realizadas automações com as mais variadas tarefas. Esta é uma equipe  com  5 desenvolvedores 
+trabalhando em um mesmo ramo (branch), em que todos trabalham em um mesmo repositório. Um dos  desenvolvedores  recebeu a informação  de que o código recém enviado apresenta possíveis 
+"falhas de segurança". Os demais desenvolvedores perceberam  o problema e interromperam suas tarefas para estudar o ocorrido e auxiliar na solução do problema. A equipe resolveu o 
+problema e aprendeu bastante sobre a situação indicada. Todos estão satisfeitos por terem configurado a ação para executar o mais cedo possível, para evitar que a falha fosse descoberta muito tarde.
+O evento configurado no workflow para iniciar a execução dessa ação (action) é:"
+1 - pull.
+2 - push.
+3 - release.
+4 - pull_request.
+
+Resposta 15 - Segundo o professor: Entendo que todos estão no mesmo repositório. Neste caso, o evento é o push. Mesmo caso de quando o repositório apresenta um único desenvolvedor.
+Este é talvez o fluxo de trabalho mais simples. Equipes professionais costumam utilizar ramos separados para cada solicitação, entretanto, não é o fluxo descrito na questão.
+
+Pergunta 16 - Pra cada imagem teria um repositório no Docker Hub?
+
+Resposta 16 - Sim, para cada imagem deve haver um repositório no Docker Hub. 
+
+Pergunta 17 - Toda imagem do docker vai precisar ter uma imagem do Ubunto e do curl? Seria a base da imagem? Seria como um ubunto rodando dentro de um ISO?
+
+Resposta 17 - Sim. É a base da imagem. Seria como um Ubunto rodando dentro de um ISO? Sim.
+
+Pergunta 18 - Teste Online: Questão 2 --> Aborda conceitos aborda conceitos de integração contínua, ou seja para evitar probelmas relacionados a inconcistências nas dependências 
+de bibliotecas seria necessário utilizar ferramentas de gerenciamento de ambiente e automação, como GitHub Actions, Jenkins, Travi, pois seriam ferramentas de para integração contínua.
+No meu entendimento, Maven, Gradle, Npm e Yarn são gerenciadores de dependências que podem auxiliar na gestão das bibliotecas e dependências do projeto, mas não são a solução para o 
+problema de manter ambientes consistentes.
+
+Resposta 18 - Segundo comentário do professor "A diferença entre as configurações de dependências é a causa do problema. As versões de automação de construções podem ser utilizadas para 
+instalar as versões corretas de bibliotecas em todos os ambiente. As ferramentas de quadro de tarefas teriam que ser usadas regularmente para indicar a necessidade de atualizar dependências, 
+com maior demora e chance de erros. As ferramentas de integração contínua estavam instaladas e dependem de utilizar a mesma configuração de bibliotecas, tanto nos servidores de integração 
+quanto nos computadores de cada desenvolvedor. Assim, neste caso, a ferramenta de integração contínua não controla a configuração do desenvolvedor e por isso as ferramentas de contêiners são, 
+geralmente utilizadas para a instalação de dependências externas. O uso de contêiners para configurar bibliotecas não é típico em computadores de desenvolvedores.".
+
+Pergunta 19 - Teste Online 10 --> Entendo que a resposta mais adequada não consta nas opções:
+- git add, git commit, git pull e git push.
+Pois o a sequência correta seria: 
+git add 
+- Seria utilzado par aincluiro arquivo e preparar para envio
+git commit 
+- Confirmar as mudanças localmento com a descrição da mudança.
+git pull 
+- Antes de "git push", é importante verificar se houveram mudanças no repositório remoto que ainda não foram sincronizadas com o repositório local. O comando "git pull" trará as 
+últimas alterações do repositório remoto para o repositório local.
+git push
+- Após ter certeza de que o repositório local está atualizado, o desenvolvedor pode usar "git push" para enviar as mudanças para o repositório remoto.
+
+Resposta 19 - Segundo comentário do Professsor: "Não é necessário o comando git pull - O arquivo ausente deve ser enviado ao repositório remoto, certo? Para isso se faz o uso do comando git add para reparar o 
+arquivo que será inserido no histórico local com o uso do comando git commit. É necessário enviar o histórico local com o uso do comando git push, que atualiza a comunicação 
+de rede com o repositório remoto. O uso do comando git add sem o uso do git commit não completa a escrita no histórico local. O uso do comando git commit sem o uso do git push
+não completa a transferência para o repositório remoto.". 
+
+Comentário 3 - Achei o conteúdo e a forma que o mesmo foi entregue muito pesados. Venho de Plataforma Alta e fiquei assustado. Espero que ao ser colocado em pratica no decorrer das outras
+disciplinas o assunto DevOps vá se teornando mais claro pra mim.
+
+Resposta 3 - Vocês terão a disciplina de DevOps Avançado o que complementa essa disciplina. Logo, tudo ficará mais claro.
+
+Pergunta 20 - Professor diz que há um link, mas onde?? No PDF não tem. As coisas não estão batendo.
+
+Resposta 20 -  Vai em Desenvolvimento Full Stack, na sala de aula virtual --> Conteúdo --> Material de Apoio. Lá encontrarás o link. 
+
+Comentário 4 - Segunda tentativa frustrada. Quando vc faz o git clone entra num diretório q não estava no script e tento fazer o mesmo mas dá erro. Não aceita o clone.
+
+Resposta 4 - Tu deves entrar no GitHub --> Abrir o projeto para clonagem --> Abrir o VC Code --> Ir na opção de Clone de Projeto --> Baixar para tua máquina. 
+
+Pergunta 21 - A Questão - Para reduzir o risco de  equívocos na implantação,  o servidor que executa a aplicação utiliza uma porta diferente em cada  ambiente. Em um ambiente de testes, 
+a porta de conexão com a aplicação é a 9090. No ambiente de desenvolvimento,  a porta é a 8080. Finalmente, no ambiente de produção a  porta utilizada é a 80.
+A aplicação é  antiga e foi codificada para utilizar sempre a porta 80. Nos ambientes de desenvolvimento e de testes foi utilizado o contêiner Docker e foi realizado um mapeamento de 
+portas para atender aos  números de  porta esperados. No ambiente de teste, basta executar a opção -p sendo:
+Opções:
+-p 9090:80.
+-p 80:9090.
+-p 80:8080.
+-p 8080:80.
+Opção apontada como correta (1a).
+Justificativa:
+O primeiro parâmetro é a porta do computador hospedeiro (host) e  o segundo valor o da porta no contêiner.
+Dentro do container  a  porta  80 está sendo utilizada pela  aplicação. Ao executar  a  imagem,  a  porta  9090 redireciona para o container, na porta 80.
+A equipe de teste utiliza a porta  9090. A porta  8080 seria utiliza por  um dos desenvolvedores.
+Questionamento: Se o primeiro parâmetro é a porta do computador hospedeiro(host) e o segundo a porta do container a resposta correta não seria a 2a? (80:9090)
+
+Resposta 21 - Não. A resposta do teste é realmente a "1", pois sempre se utiliza, primeiramente a porta do host ":" a porta do contêiner. A justificativa do Professor é bastante coerente.
+
+Pergunta 22 - Para Java temos framework de gestão de migration como o flyway ou o liquidbase. Ambos podem ser geridos ou pelo projeto ou pelo gerenciador de dependencia. Neste 
+caso, onde é melhor este processo estar? Pelo build ou pelo processo?
+
+Resposta 22 - O Flyway é uma ferramenta de migração de banco de dados baseada em código aberto. Ele permite que os desenvolvedores gerenciem a evolução do banco de dados de maneira c
+onfiável, automatizada e incremental, já o liquidbase é uma ferramenta de migração de banco de dados de código aberto que fornece às organizações uma maneira fácil de rastrear, 
+versão e implantar mudanças no esquema do banco de dados. É diferente de outras ferramentas de migração de banco de dados porque o software entende as mudanças que você está 
+fazendo com base e como você especifica essas mudanças. Logo, o melhor é ser usado no Processo.
+
+Pergunta 23 - Estou tentando localizar link do projeto KubeDev utilizado pelo professor  Fabrício Veronez para executar o fork e não estou localizando na plataforma. Poderiam sinzalizar 
+se esta disponível e em qual local? Não encontrei link para baixar o projeto DeveKub para realizar o fork, entretanto localizei na plataforma um .zip chamado conversão-temperatura-2-main, 
+só não sei se este já estaria com o cod atualizado, não sei se servirá para acompanhamento da aula.  Favor desconsiderar mensagens anteriores, já localizei o repositório e realizei o fork.
+
+Resposta 23 - Que bom! Qualquer coisa chama.
+
+Comentário 5 - Quem utiliza o Win ao executar o comando docker build -t aula-ubuntu-curl -f Dockerfile . para a criação da imagem, exibira o erro abaixo:
+ERROR: error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/_ping": open //./pipe/docker_engine: 
+The system cannot find the file specified.-t. Pesquisei na internet e consegui rodar coom sucesso somente após habilitar o Docker Desktop. Após verifiquei se o status do daemon 
+do doker, na parte inferior deve aparcer verde. 
+
+Resposta 5 - Está correto o processo para uso do Docker Desktop. 
+
+Comentário 6 -  Tentei efetuar o mesmo processo para limpar as imagens locais e o resultado foi diferente do apresentado em aula. docker_clear mas não foi executado com sucesso.
+
+Resposta 6 -  Em suma, tu deves usar o comando docker image ls, par analisar as imagens contidas no ambiente Docker. Para apagar as imagens com segurança utilize o comando 
+docker image prune. As imagens devem ser listadas novamente. Tu podes também, remover uma imagem específica, através do nome, utilizando o comando $ docker image rm <image_name>. 
+Se preferires forçar a remoção da imagem, utiliza o comando $ docker image rm <image_name> -f. 
+
+Pergunta 24 - Teste Online: segue tela das tentativas (o aluno enviou o print), uma sem conseguir finalizar por conta da lentidão e sincronismo da página que quando sumiu o icone, 
+não exibiu o botão para confirmar o envio, o que devemos fazer, será que irá sincronizar e atualizar a informação da nota da segunda tentativa??
+
+Resposta 24 -  Atualiza com a nota da segunda tentativa. 
+
+Pergunta 25 - Nesta parte de issue do github e a associação com histórias de usuário, como funciona? 
+
+Resposta 25 - Os GitHubs Issues são itens que podem ser criados em um repositório para planejar, discutir e monitorar o trabalho. Ele permite o acompanhamento do trabalho através 
+do GitHub, ou seja, por exemplo: Ao mencionar um problema em outro problema ou pull request, a linha do tempo do problema reflete a referência cruzada para que você possa 
+acompanhar o trabalho relacionado. Para indicar que o trabalho está em andamento, então tu podes vincular um problema a um pull request. Quando o pull request faz merge, 
+o problema vinculado é fechado automaticamente. Para Criar um Issue, na barra superior, a baixo de giyhub/nomeDoRepositório, tu clicas em issues --> Novo Problema 
+(Se o repositório usar modelos de problemas, ao lado do tipo de problema que você deseja abrir, clique em Introdução. Se o tipo de problema que você deseja abrir não 
+estiver incluído nas opções disponíveis, clique em Abrir um problema em branco) --> No campo título dê um nome ao problema --> No corpo do comentário, digite uma 
+descrição do problema --> Ao término, clique em Enviar novo problema. Espero ter ajudado. Tu podes também ir na documentação do GitHub e verificar os exemplo com print de tela. 
+Segue link: https://docs.github.com/pt/issues.
+

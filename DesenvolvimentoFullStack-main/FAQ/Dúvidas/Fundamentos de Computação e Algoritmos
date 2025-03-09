@@ -1,0 +1,214 @@
+## Comentários e Perguntas:
+
+Pergunta 1: Já aprendi na graduação sobre esse conteúdo. Gostaria de saber se essas aulas são realmente necessárias, visto que sou graduado em TI?
+
+Resposta 1: Todas as aulas disponibilizadas devem ser assistidas, sem exceção, pois fazem parte da grade curricular do curso. Abraço!
+
+Pergunta 2:  É impossível ver o conteúdo da tela com o foco do vídeo no professor e na sala. Tem como focar o vídeo na tela?
+
+Resposta 2: Sim, Estou enviando para vocês os links com os arquivos zipados das aulas, para quem tiver interesse, é só baixar. 
+São eles: ﻿
+* https://www.dropbox.com/sh/w8x9os2f5a2oqdy/AAAKvVxrQn0vAP0K1qxr-6Sma?dl=0 e
+
+* https://www.dropbox.com/sh/iabpto6xkhjd5bd/AADxVhltjBDSUu3DP8eYAjkxa?dl=0. Façam os downloads e códigos, abrir com notepad++. Abraço!!!
+
+Comentário 1 - Galera tenho uma dica pra vocês, no vídeo o professor mostrar a execução utilizando o prompt de comando (cmd) , sempre rodando o comando "node" e chamando o arquivo a ser executado, 
+tem uma extensão no vscode chamada de Code Runner,  que facilita muito a execução desse comando, basta instalar a extensão e utilizar as teclas de atalho  Ctrl+Alt+N.
+
+Resposta 1 - Nodemon também é bastante utilizado... Só instalar via terminar. 
+
+Pergunta 3: Professor, no exemplo sobre Vetor (array), o senhor iniciou a sequência de fibonacci a partir do índice 1. Isso irá deixar o primeiro índice do vetor vazio, certo? Isso era planejado no exemplo?
+
+Resposta 3: No exemplo do Vetor (Array) da sequência Fibonacci, sabendo que Array é um recurso indexado e podendo acessar a posição que se quer, para se ter o acesso tanto a leitura quanto a escrita, 
+foram incluídos 2 valores na vetor, mesmo este sendo criado como nulo. O vetor parte da posição três e vai até a posição 20, sem a inclusão do valor 20. O cálculo do Fibonacci na posição i começa em três 
+e vai aumentando conforme o cálculo para esta sequência. Assim, os índices não ficarão vazios, pois o vetor é iniciado na posição três e não na zero, com o valor 1. Abraço!! 
+
+Pergunta 4: Se tentarmos acessar o índice fibonacci[0], o retorno é undefined. Fiquei na dúvida se isso era proposital?
+
+Resposta 4: Na verdade é proposital, levando em consideração que o Fibonacci inicia com 0, 1, 1, 2 e assim, sucessivamente. Diante disto se inicializar o i com 3 no for, realmente não haverá índice 0 e 
+1 no vetor, certo? Me explica, com um pouco mais de clareza, tu inicializou o i com zero? ou com três? Aguardo. Abraço!
+
+Pergunta 5: A apresentação do professor estará disponível para download?
+
+Resposta 5: Pelo App tu consegue fazer o download sim. 
+
+Pergunta 6 -  Fiz o download do material no app, mas não encontro onde ficou gravado o download.
+
+Resposta 6 - Está em File --> Downloads.
+
+Comentário 2 - Essas aulas são muito importantes, porém as explicações do conteúdo dos slides, principalmente dos códigos, deveriam aparecer em tela cheia pra gente. O pessoal da edição deveria se atentar 
+a isso. Abriram muito a câmera e não enxergamos nada.
+
+Resposta 2 - Se tu forem em Material da disciplina terás acesso aos códigos.
+
+Pergunta 7 - Eu tenho uma pergunta sobre a questão onde se questiona o nome de entrada e saida de dados, onde em geral entrada e saída de dados são ditas como: INPUT como entrada e OUTPUT como saída e 
+na pergunta diz como, Prompt e Alert. Já que, sempre que questionamos uma entrada de dados, dizemos INPUT e Saída como OUTPUT. Eu realmente não entendi a abordagem desta questão. Bem, Prompt e Alert 
+também não são as melhores formas dentro de um sistema web para trabalhar com entrada e saída de dados, mesmo que, usados de uma forma clara e explicativa durante a aula.
+
+Resposta 7 - O Prompt e Alert são utilizadas em soluções que utilizam Javascript. é uma forma de retorna uma mensagem para o usuário final, que funciona muito bem, pois o mesmo, tem a resposta de 
+saída em uma caixa padrão do Javascript, logo é uma outra forma de "fazer" diferente de Input e Output.
+
+Pergunta 8 - No switch, onde o case não possui o break, e considerando que a condição dele é atendida, além de entrar nos demais cases, ele ainda acessa o default também?
+
+Resposta 8 -  O comportamento do Switch, ao executar o código, ocorre a partir do case de sucesso, até encontrar o Break, em qualquer linguagem, Assim, sem o Break, o Switch faz o que chamamos de 
+"Fall Through", ou seja, ele entra na condição que estiver abaixo dele. Logo, sem o Break, ele não irá cair no Default, mesmo com as condições dos cases sendo falsas. Você pode, ao invés de usar um Break, 
+colocar um Return, que retorna a função e para o código naquele ponto, sem executar os demais Cases.
+
+Pergunta 9 - Na linha 31 do algoritmo de lista encadeada (var MyLL = new LinkedList();), se por uma questão de boas práticas eu quisesse declarar esta variável como const, os métodos da classe 
+de adição ainda funcionariam corretamente?
+
+Resposta 9 - Sim, pode ser declarada como const. Os métodos da classe funcionam corretamente
+
+Pergunta 10 - Pergunta 7 - Como fica o desenvolvimento da TI com o ChatGPT? Pode prejudicar a área?
+
+Resposta 10 - Eu entendo o chatGPT como uma ferramenta muito poderosa que pode contribuir sobremaneira no desenvolvimento de várias áreas do conhecimento. A TI 
+certamente será uma das áreas fortemente impactada por essa ferramenta. Porém, é ingênuo pensar que ela substituirá plenamento o ser humano. Dadas as devidas 
+proporções, a disponibilização do chatGPT é tão impactante para a sociedade quanto foi a dos buscadores de internet, como no caso do google. Tenha certeza que o mesmo
+questionamento sobre o prejuízo/impacto nas diferentes áreas de atuação foi feito sobre o uso do google quando este foi lançado. A pergunta é: este impacto foi 
+positivo ou negativo? Podemos dizer que podemos encontrar tanto vantagens quanto desvantagens, mas dada sua unipresença, acho que podemos julgar que o resultado é 
+mais positivo do que negativo, certo? Dito isto, digo que o problema não é a ferramenta (chatGPT no caso), mas sim o seu uso. Considerando que todos façamos uso da 
+ferramenta, qual será o resultado? O mau profissional fará mau uso da ferramenta. O bom profissional fará bom uso da ferramenta. Quando diferencio mau e bom 
+profissional, não estou nem considerando questões éticas, mas sim competência. Quem tem competência saberá como tirar o melhor proveito da ferramenta. O bom 
+profissional sabe onde quer chegar e sabe ser crítico. Assim, aquele bom profissional que se apoiar neste tipo de ferramenta saberá fazer os questionamentos 
+adequados. Mas além disto, o bom profissional não se contentará com a resposta que lhe for dada, mas sim a utilizará como base, de forma crítica, a fim de encontrar o 
+bom caminho para a solução a ser entregue. Veja bem, o que estou descrevendo aqui não foge das relações profissionais que ocorrem em equipes de desenvolvimento 
+atualmente. Constantemente indagamos colegas de trabalho sobre dúvidas que tenhamos e recebemos respostas. O bom profissional saberá como tirar o melhor proveito 
+deste tipo de relação. O mau profissional, este fará um uso raso da ferramenta. Quando desafios maiores o encontrarem e as perguntas corretas não puderem ser feitas, 
+aí então qualquer solução será entregue. Não lhe soa como o espectro de profissionais que temos hoje em dia (bons e maus)? Entendo seu questionamento e a 
+preocupação que tal ferramenta causa. Mas lembre-se que somos humanos e como tal sempre nos adequamos. Assim ocorreu na revolução industrial, quando atividades 
+manuais foram substituídas por máquinas, o que exigiu a readequação de várias pessoas. Mas lhe afirmo que no mundo em que vivemos, desenvolvedores de solução na área 
+de TI são tão vitais quanto a energia que precisa ser gerada para manter tudo funcionando. Sendo assim, não vejo prejuízo para a área de TI, mas sim a certeza da 
+necessidade de um constante acompanhamento do mundo para mantermo-nos atualizados e atuantes. Mas a atualização é comum em qualquer área de trabalho e é ela que nos 
+torna profissionais bons e insubstituíveis.
+
+Pergunta 11 - Ao tentar abrir esse link https://mariosouto.github.io/pucpos-code/a2b1/02-browser/index.html é mostrado erro 404. Pode verificar? 
+
+Resposta 11 -  Está com problemas mesmo. Entra neste link do Mario Souto no Github: https://github.com/omariosouto. 
+
+Pergunta 12 -  A partir de quando começaremos a organizar as questões do TCC (Orientador, projeto e etc.)?
+
+Resposta 12 -  Assim que finalizarem as disciplinas. 
+
+Pergunta 13 - No github não esta o codigo desse mini browser:
+https://github.com/empucrs/DesenvolvimentoFullStack/tree/main/D01-FundamentoDeComputacaoEAlgoritmos/code01_Hello. Onde encontro?
+
+Resposta 13 - Vou te enviar os links do github que estão no material: javascript-datastructures-algorithms/binary-search-tree.js at main· 
+loiane/javascript-datastructures-algorithms · GitHub e dsa.js-data-structures-algorithms-javascript/binary-tree-node.js at master· 
+amejiarosario/dsa.js-data-structures-algorithms-javascript · GitHub. 
+
+Pergunta 14 - Professor, sobre o caso do projeto na Vercel que você explicou por volta do min 09:00, poderia explicar melhor de que forma um erro na aplicação gerou mais custo?
+
+Resposta 14 - O professor contraiu a dívida, pois não desligou o servidor que ele subiu o que gerou custo e não fez o monitoramento corretamente. como ele contratou o plano básico, 
+segundo o professor, não havia o controle de Cap. Para solucionar o problema, ele entrou em contato com a empresa para negociar o problema. É importante também sempre tratar erros, 
+pois estes também geram mais custos, aumentando a dívida. De qualquer forma, caso isso ocorra é necessário verificar o tipo de plano contratado e entrar em  contato com a Empresa para 
+negociar  a divida, caso ela seja gerada. 
+
+Pergunta 15 - Li recentemente na documentação da MDN, na parte que trata assuntos acerca de JS, que a declaração de variável no modelo var é ultrapassada, e que a ler é sua substituta. 
+É correto afirmar isto?
+
+Resposta 15 - De certa forma sim. Se formos construir o código, seguindo boas práticas de programação, o correto é utilizar o Let ao declarar uma variável, mas o Node.js ainda aceitar 
+var na declaração das variáveis, sem prejuízo ao código. Ele roda da mesma forma. É só uma questão de padronização. 
+
+Pergunta 16 - Uma dúvida, na aula introdutória foi dito que seria entregue no final de cada módulo uma questão ou projeto para ser realizado e postado no GitHub. Mas nessa em especifico 
+ficou muito aberto a entender os algoritmos e colocar no Github, seria isso mesmo? 
+
+Resposta 16 - Sim, é isso mesmo, até porque são as questões serão avaliadas para nota.
+
+Comentário 2 - Em muitos momentos o professor mostra alguns códigos no monitor mas é impossível enchergar. 
+
+Resposta 2 - Entra no nosso GitHub: https://github.com/empucrs/DesenvolvimentoFullStack. Aqui tu vais encontrar os códigos do professor, tutoriais, desafio e o nosso FAQ. 
+
+Pergunta 17 - Gostaria de saber se na hora de fazer um código que utiliza funções existe a "melhor" boa pratica para se estruturar. Por exemplo estou fazendo um código Vue agora, e tenho 
+que criar validações para campos. Existe a melhor ferramenta para isso ou a melhor prática? Muitas vezes não construimos uma estrutura do que queremos e vamos direto para a ação.
+Gostaria de saber o que precisamos fazer para sempre construir um código limpo, bem estruturado, que tem um bom desempenho e que precise o mínimo de ter que fazer manutenções futuras?
+
+Resposta 17 - Um código bem estruturado, normalmente ocupa poucas linhas e deve ser comentado. Uma boa saída é o uso de Arrow Function, pois são mais simples, ocupam poucas linhas e desempenham 
+o papel que tu precisas, desde que a lógica esteja correta. Segue link para maiores dúvidas em relação ao assunto: https://www.w3schools.com/js/js_arrow_function.asp. 
+
+Pergunta 18 - Sempre que rodo o script abaixo, recebo a informação de que a função "calculaCorrida()" não está definida. Onde está o erro?<input placeholder="Distancia em KM" 
+id="campoDistanciaEmKM"/><input placeholder="Tempo em minutos" id="campoTempoEmMin"/><button onclick="calculaCorrida()">Calcula</button><script>    
+function formataMoeda() {        var valorFormatado = algumValor.toFixed(2).replace('.'), (',');        
+return valorFormatado;}function calculaCorrida() {        //organizar as entradas e fazer a regra de negocio       
+var tarifaDinamica = 1.4;        var distanciaEmkm = campoDistanciaEmKM.value * tarifaDinamica;        
+var tempoEmMin = campoTempoEmMin.value * 0.26;        var valorDaCorrida = distanciaEmkm + tempoEmMin;        
+alert("O valor da corrida e:" + formataMoeda(valorDaCorrida)); // executa na hora    } /*#app de corridaPreço Base da corridaCusto fixohorarios e regioes de maior movimento-distancia KM  - 
+Tempo em minutos/*</script>
+
+Resposta 18 - Veremos:  <script>    
+function formataMoeda() {
+var valorFormatado = algumValor.toFixed(2).replace('.'), (',');        
+return valorFormatado;}function calculaCorrida() 
+{  //organizar as entradas e fazer a regra de negocio       
+var tarifaDinamica = 1.4;        
+var distanciaEmkm = campoDistanciaEmKM.value * tarifaDinamica;        
+var tempoEmMin = campoTempoEmMin.value * 0.26;        
+var valorDaCorrida = distanciaEmkm + tempoEmMin;        
+alert("O valor da corrida e:" + formataMoeda(valorDaCorrida)); // executa na hora    } /*#app de corridaPreço Base da corridaCusto fixohorarios e regioes de maior movimento-distancia KM  - 
+Tempo em minutos/*</script> Na função calculaCorrida() não encontrei o "return" de nada.  Pede para retorna formataMoeda(valorDaCorrida); 
+
+Pergunta 19 - Acredito que a questão não tinha uma resposta correta, marquei a que menos me parecia errada, pois a palavra "requerem" na opção sinalizada como correta me fez 
+acreditar que a mesma invalidasse essa resposta, pois não é uma necessidade que os dados estejam ordenados, acredito sim que ajude no desempenho, mas não impede que o método seja utilizado. 
+Aluno enviou print da questão.
+
+Resposta 19 - Resposta do Professor: A interpretação do aluno está inadequada. A indicação original da resposta para a questão está correta e não existe ambiguidade alguma 
+na utilização da palavra “requerem”. O algoritmo de busca binária possui uma precondição que deve ser verdadeira para que funcione corretamente e tal precondição indica que os dados 
+devem apresentar uma relação de ordem. Tal informação pode ser encontrada em qualquer livro sobre estruturas de dados e algoritmos. Talvez seja importante indicar para o aluno um exemplo 
+de fonte bibliográfica (daquelas indicadas na bibliografia da disciplina) onde a indicação de ordenação dos dados apareça.
+
+Cometário 3 - Estou iniciando o Curso de Pós em Devsenvolvimento Full Stack. Não sei como entrar em contato com a Turma. Segue meu contato: klinger.marinho@edu.pucrs.br.
+Caso alguém queira montar um grupo no whatzap : (92)99213-8837. Vamos fazer um networking.
+
+Resposta 3 - Criar o grupo da turma no WhatsApp é uma forma bastante eficiente de trocar informações com tua turma. Ótima iniciativa. 
+
+Pergunta 20 - Gostaria de saber se a alguma grupo/comunidade para interagirmos no decorrer das discplinas e realizarmos networking.
+
+Resposta 20 - Tu podes criar um grupo no WhatsApp e divulgar aqui para a tua turma. É uma ótima forma de interação e network. Podes também criar um grupo no Discord. 
+
+Comentário 3 - Nas aulas do Mario Souto, a transição do vídeo para a tela ajudava a enxergar o código. Na aula do professor Ifarraguirre, não dá pra ler nada dos comandos que ele está 
+explicando. Fica a constatação para futuras turmas.
+
+Resposta 3 - No link: https://github.com/empucrs/DesenvolvimentoFullStack tens todos os códigos do professor, tutoriais, desafio, FAQ, e o livro, em PDF da disciplina de UX 
+atualizado. Podes baixar tudo para verificar o código desta disciplina. 
+
+Pergunta 21 - Poderia informar como ficaria o calculo, pois não consegui entender como ficaria a expressão percorrendo do valor inicial da variável i = 3 até i = 19,
+não consegui entender como ficaria a expressão completa. Ao executar no Vs Code Obitive estes resultados, mas não ficou claro.
+
+Resposta 21 -  O Fibonacci, do teu print está correto, visto que o primeiro índice, temos 1, no segundo repete o 1, pois não soma com o anterior e já no terceira, 
+já ocorre a soma do primeiro com o segundo, gerando o resultado 2, visto que 1 + 1 é 2. No quarto índice temos 3, também está correto, pois segundo Fibonacci, os valores 
+dos índices devem ser somados, assim, no quarto índice temos 3, pela soma dos valores dos dois índices anteriores, 2 + 1, que resulta em 3. O Fibonacci sem calcula os valores, 
+somando o valor que está no índice anterior, com o próximo, para geral o próximo valor.
+
+Pergunta 22 - Onde estão as questões para responder? Não consigo achar na plataforma.
+
+Resposta 22 - As questões das disciplinas devem estar disponíveis dentro da própria disciplina no link "Teste Online". 
+
+Comentário 4 - Para facilitar a visualização do conteúdo que está sendo exibido pelo professor, seria interessante fazer uma tela lateral ampliada com a indicação do recurso ou coisa similar.
+
+Resposta 4 -  No link: https://github.com/empucrs/DesenvolvimentoFullStack. Como forma de auxílio, tens os códigos desta disciplina, tutoriais, desafios, FAQ e o livro da disciplina de UX. Podes baixar tudo 
+que achares relevante. 
+
+Pergunta 23 - Estou usando igual ao senhor o DevTools para fazer os códigos de explicação, e ao tentar executar o código de criação de objetivo como fábrica deu um erro, eu fiz a função do criarEmpregado, 
+criei um empregado com os valores e ao passar o método de calcular o salário aparece NaN. O que é isso? Fiquei perdida.
+
+Resposta 23 - Podes enviar o print? Para identificar o erro? Tu inicializou a variável que faz o calculo com zero? Estou te enviado o link com os códigos do professor para comparar.
+
+Pergunta 24 - Não encontrei no link o material para o slide, gosto deles pq me ajuda a seguir mais fácil a aula. Teremos dessa aula o material?
+
+Resposta Etendimento PUCRS 24 - Ao lado do nome da disciplina, há um ícone que se parece com uma folha A4. Ao clicar nesse ícone, abrirá uma janela na tela com todos os materiais enviados 
+pelos professores. tem material complementar e transcrição da aula, contudo não tem os slides. Pelo visto este material dos slides não foi enviado pelo professor.
+
+Pergunta 25 - Qual a diferença da linha de código que termina com ";" para a que termina com "," ? Vi que nos exemplos ocorrem das duas formas. 
+
+Resposta 25 - Se está entre aspas é um texto escrito que será apresentado na tela (ou uma String). Se no código o ponto-e-vírgula indica o término da linha de código e a Vírgula, 
+que alguma linha de código complementará o raciocínio. 
+
+Pergunta 26 - Como eu posso fazer para acessar o Área de trabalho do computador, visto que o terminal não aceita espaço no nome? 
+
+Resposta 26 - Só minimizar o terminal (via cmd ou prompt) ou o VSCode (se estiveres trabalhando com o terminal, via IDE). Assim terás acesso a área de trabalho do teu computador. 
+
+Pergunta 27 - Não encontrei nenhuma das referências utilizadas na aula disponível na biblioteca virtual. Tu terias como me informar se esses livros estão disponíveis no formato e-book?
+
+Resposta 27 - Entra em:https://biblioteca.pucrs.br/ebooks-por-titulo/. Faz a pesquisa pelo sobrenome do autor que encontrarás.
+
+
+

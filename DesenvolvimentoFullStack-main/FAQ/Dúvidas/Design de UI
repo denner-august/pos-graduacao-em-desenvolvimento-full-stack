@@ -1,0 +1,42 @@
+## Comentários e Perguntas:
+
+Comentário 1 - Uma ferramenta que tenho usado recentemente e que é muito simples de usar é o Excalidraw. Ele pode transmitir frames muito rápido por sua simplicidade. 
+Funciona como um branco digital.
+
+Resposta 1 - Não conheço essa ferramenta, vou pesquisar para ficar por dentro.
+
+Comentário 2 - Eu costumava trabalhar com figma, mas naquela época eu trabalhava diretamente com hi-fi. Se eu soubesse sobre wireframing lo-fi e prototipagem antes, 
+poderia ter economizado muito tempo.
+
+Resposta 2 - Uso muito figma também, mas vou pesquisar.
+
+Comentário 3 - Caros, eu apenas gostaria de dar um feedback com relação ao material. A produção é realmente excelente, mas tem dois pontos que eu gostaria de colocar:
+1 - A diferença de volume entre a música das introduções e a aula em si é MUITO grande. É extremamente desagradável terminar uma aula e, ao iniciar a próxima, o som explode no meu ouvido.
+2 - Em algumas aulas é praticamente impossível ver o que o professor mostra na tela, porque é uma filmagem da tela. Por que a apresentação é mostrada na nossa tela em algumas aulas 
+e em outras não? É necessário padronizar.
+
+Resposta 3 -  Obrigada pelo Feedback. A música introdutória é rápida, para falar sobre a PUCRS, mas vou verificar se é possível baixar um pouco o volume. As aulas, 
+inicialmente gravavam o professor sem a ênfase na tela, propriamente dita. Com o decorrer do curso verificou-se a necessidade de enfatizar a tela devido aos códigos e demais serviços. 
+Por isso da padronização não ocorrer. De qualquer forma os teus dois pontos levantados são muito relevantes e serão repassados para UOL e Coordenação. 
+
+Pergunta 1 - Como posso fazer um questionamento a respeito das provas realizadas na plataforma? Durante a disciplina de design de UI no curso de desenvolvimento full stack 
+percebi uma inconcistência em umas das questões que estou mandando em anexo. No livro da disciplina diz que Design Pattern foi proposto na década de 1970 e não na de 1990 como 
+descrito na explicação.
+
+Resposta 1 - Os alunos devem fazer perguntas e comentários utilizando a #Ajuda_Prof, no Matrix. A resposta está correta. Design Patterns foi proposto para a área de 
+Arquitetura na década de 70. Nesta época a programação estava iniciando padronizações, como, por exemplo criar uma metodologia de desenvolvimento de software para programação, 
+etc. Só na década de 1990 que Design Patterns foi proposto na área da computação como forma de auxiliar na programação, nesta mesma época surgem as metodologias ágeis de programação de 
+corroboram com a padronização e uso de Programação Orientada a Objetos, bem como a criação de IDEs para criar um ambiente especifico para programação. 
+
+Comentário 4 - Uma coisa interessante na questão de existir a necessidade de menos botões nas interfaces para pessoas com deficiência visual, eu observo que muitas ferramentas 
+hoje em dia possuem um atalho onde é possível procurar comandos escrevendo. No VSCode, o atalho para abrir a caixa de comandos é Ctrl+Shift+P, em outra ferramenta que 
+utilizo para realizar anotações, é Ctrl+P. É mais rápido utilizar esses comandos de forma escrita, do que navegar pela interface usando tab. É um padrão relativamente novo que 
+é utilizado em ferramentas técnicas hoje em dia.
+
+Resposta 4 - Ótima Observação! Os comandos de teclado sempre auxiliam muito.
+
+Comentário 5 - Gostei desse novo layout das aulas em que os professores ficam menores na tela, e os slides ficam em ênfase. É bom pra conseguir ler os slides enquanto assiste as aulas, 
+e também é menos custoso para quem tem internet ruim, visto que os quadros tem mudanças menores em relação de um ao outro, ou pra quem está assistindo pelo celular.
+
+Resposta 5 - Após analisar comentários e verificar as possibilidades para resolução do problema, optamos por utilizar os vídeos brutos e manter sempre os slides e tela do professor em destaque, 
+mas sem deixar que o mesmo apareça nas gravações. 

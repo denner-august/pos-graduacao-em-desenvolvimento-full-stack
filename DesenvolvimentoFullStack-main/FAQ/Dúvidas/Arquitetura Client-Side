@@ -1,0 +1,60 @@
+## Comentários e Perguntas:
+
+Pergunta 1 - Fique com uma dúvida no minuto 14:06, onde o senhor cita "Jamais invente de gerar um valor de id programaticamente", nesse caso o senhor está se referindo a 
+não utilizar um valor index (posição do item dentro do array) como key? E por qual motivo? Caso meu objeto não tenha um identificador único, e não seja possível modificar este 
+objeto, qual a melhor abordagem?
+
+Resposta 1 - Quer dizer dizer que não se deve gerar id na digitação, esse id deve ser gerado automaticamente. Motivo: para não haver erros humanos na criação do id e correr o 
+risco de duplicar. A melhor abordagem é criar a tabela com id auto-increment, ou auto incrementável, no banco de dados. Esclarecendo: No caso de Array, os índices são criados 
+conforme o seu tamanho e iniciam no índice zero.
+
+Pergunta 2 - Gostaria de um suporte com a questão abaixo, não entendi muito bem, temos um alternativa com digitação errada? Questão 4 - Existem diferentes estratégias de organização do
+código de implementação de um frontend para o lado cliente de uma aplicação web. Microfrontend é um estilo arquitetural que estende o conceito de microsserviços no backend para o frontend.
+Selecione a alternativa que descreve uma característica dos microfrontends:Tratam de dividir interfaces de usuários grandes monolíticas em pedaços menores e mais gerenciáveis com fronteiras 
+bem definidas. Se baseiam em utilizar uma única tecnologia (biblioteca ou framework) compartilhada entre todas as equipes que trabalham em cada fragmento do frontend. 
+Preconizam a implantação dependente de cada fragmento do frontend. -- FRASE MONTADA ERRADA? Necessitam de suporte nativo de um framework de desenvolvimento web para sua implantação.
+
+Resposta 2 - Resposta do professor: Não entendi qual das seguintes alternativas o aluno aponta um erro de “montagem”. Pela anotação seria a alternativa “C” ou “D” que estariam escritas de forma incorreta.
+a) Tratam de dividir interfaces de usuários grandes monolíticas em pedaços menores e mais gerenciáveis com fronteiras bem definidas.
+b) Se baseiam em utilizar uma única tecnologia (biblioteca ou framework) compartilhada entre todas as equipes que trabalham em cada fragmento do frontend.
+c) Preconizam a implantação dependente de cada fragmento do frontend.
+d) Necessitam de suporte nativo de um framework de desenvolvimento web para sua implantação.
+Meu ponto de vista é que todas estão corretamente escritas. A resposta da questão é a “A”. 
+
+Pergunta 3 - Conseguem verificar a questão 9 do teste que fala sobre Static Generation e Static Generation? Acredito que não está correta a resposta que vocês colocaram - Static Generation e
+Server-Side Rendering? 
+
+Resposta 3 -  A resposta está correta. Veja o print que lhe foi enviado.
+
+Pergunta 4 (Referente a pergunta 3) - Voce consegue me enviar a fonte ou algum lugar que referencia essa resposta? 
+
+Resposta 4 (Referente a pergunta 3) - As fontes estão na bibliográfica básica e complementar do curso e na própria aula.
+
+Comentário 1 - Gostaria apenas de solicitar um modelo de sistema completo com integração de banco de dados e front-end. Pode ser código aberto. Não vou copiar para o TCC do curso. 
+É que quando o aluno tenta conectar o banco de dados com o front-end da aplicação, e vice-e-versa, aparecem muito erros. O que torna desanimador, porque o mercado de trabalho, hoje, 
+exige que o aluno recém formado saiba como fazer todo o sistema web completo, mesmo que simples, funcionando perfeitamente. Na internet não tem cursos pagos que apresentam um sistema 
+completo decente, geralmente aparece muitos erros e travamentos. Se for possível, favor compartilhar. 
+
+Resposta 1 - O curso não disponibiliza sistemas completos, vistos que são várias disciplinas que abordam temas diferentes e que no final devem ser comtemplados na solução 
+completa conforme necessidade no desenvolvimento desta. Vou te passar alguns links que podem te ajudar e que são indicados pelo 
+professor: https://github.com/Yazdun/mini-projects e https://www.freecodecamp.org/news/build-a-full-stack-application-with-nextjs/. 
+
+Pergunta 5 - Sobre as questões 06 teste Online - Questão 06: Complete as lacunas com a palavra correta: O Typescript é um ______________ do JavaScript
+que adiciona recursos como tipagem _________, interfaces, classes e outros recursos de programação _____________________. Pergunta do aluno: Acredito que exista uma questão 
+errada, que diz que o Typescript é subconjunto de JS. No slide 45 da aula 1 consta que "O TypeScript é considerado uma linguagem superset do JavaScript", ou seja, 
+superconjuno e não subconjunto.
+
+Resposta 5 - A resposta da questão está correta, pois a linguagem de programação do TypeScript é subconjunto adequado do JavaScript, ou seja, é um conjunto de ferramentas que contém o objetivo de 
+escrever código Javascript de forma mais eficiente, segura e dinâmica. O Typescript também é chamado de superset e neste ponto em que o aluno pode estar confundindo. 
+
+PerguntAa 6 - Sobre as questões 07 teste Online - questão 7: Selecione a alternativa que mencione somente bibliotecas e /ou frameworks de desenvolvimento do lado do cliente
+para aplicativos web baseados em JavaScript. Pergunta do aluno: Perguntar sobre protocolo de segurança do HTTP/HTTPs e nenhuma pergunta sobre React em um disciplina chamada 
+"Arquitetura Client-Side"? Sério? Isso é pergunta pra disciplina de segurança da informação. Além disso, de acordo com a própria disciplina de Segurança da Informação, o correto é TLS e não SSL.
+Além disso, tecnicamente falando, Angular não é um framework JavaScript - é TypeScript. AngularJS é um framework JavaScript. Acredito que 
+essa pergunta (sobre o trio de frameworks client side JS) deveria ser re-escrita para dar maior clareza em relação à isso.
+
+Resposta 6 - A resposta da questão está correta, pois A linguagem de programação do TypeScript é subconjunto adequado do JavaScript, ou seja, é um conjunto de ferramentas que contém 
+o objetivo de escrever código Javascript de forma mais eficiente, segura e dinâmica. O Typescript também é chamado de superset e neste ponto em que o aluno pode estar confundindo. Questão 7 
+a questão também está correta - O AngularJS é um framework JavaScript que os desenvolvedores usam para criar aplicações de páginas únicas para a internet. Quanto a pergunta sobre os protocolos 
+de segurança, na disciplina são abordados, de forma correta, justamente por se tratar de arquitetura Client-Side, onde é necessário abordar esses protocolos por questões de segurança da Informação.
+

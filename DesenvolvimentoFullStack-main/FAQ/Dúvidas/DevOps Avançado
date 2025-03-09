@@ -1,0 +1,244 @@
+## Comentários e Perguntas:
+
+Comentário 1 - Sobre a questão 7, não entendi por que a resposta correta não é "Melhorar a capacidade de identificar e solucionar problemas rapidamente." Não é 
+justamente esse o propósito da observabilidade? Já na questão 8, não entendi por que não seria "Realizar revisões de código para identificar possíveis erros de 
+configuração antes da implantação." uma vez que as outras alternativas não contemplam formas de identificar >>E<< resolver o problema. "Usar a infraestrutura 
+imutável para evitar alterações na configuração durante a implantação." pode até inibir certas falhas, mas não ajuda a IDENTIFICAR o problema, como consta no 
+enunciado. Faltaram comentários na revisão da prova. Aliás, nem o gabarito aparece para mim.
+
+Resposta 1 -  Você está correto em relação à questão 7: "Melhorar a capacidade de identificar e solucionar problemas rapidamente" é precisamente o objetivo da 
+observabilidade e deveria ser a resposta adequada. Investigarei se houve algum equívoco no gabarito. Quanto à questão 8, "Realizar revisões de código para 
+identificar possíveis erros de configuração antes da implantação" pode auxiliar na detecção e correção de problemas de código, entretanto, é menos eficiente para 
+identificar questões de configuração, particularmente aquelas que se manifestam somente em ambiente de produção. O monitoramento em tempo real facilita a 
+identificação de problemas e fornece informações úteis para solucioná-los. Ainda assim, concordo que essa questão merece uma revisão para eliminar ambiguidades 
+nas respostas.
+
+Pergunta 1 -  Atualmente a trabalho em umas empresas onde temos servidores próprios, temos dois data center. Utilizamos o github para armazenar os códigos, e temos docker dentro 
+de nossa virtualização em VMware. Gostaria de saber, uma ferramenta que quando o codigo realizado o commit para a main do github, ao detectar isso já realizar o procedimento ci/cd 
+que atualmente fazemos uma parte na mão? Segue abaixo como é feito hoje(o que a ferramenta ia precisar fazer):-> Baixa o código num servidor linux on-primess. -> Executa nosso 
+processo de teste-> Monta o docker de teste. -> depois de tudo validado, ele montar o contêiner para produção-> encaminha para o servidor de produção de executa o processo de 
+down no antigo contêiner e sobe o novo.Atualmente temos um shell script que faz tudo, mas acho que da para fazer melhor. Gostaria de dicas de ferramentas? Lembrando trabalharemos 
+em servidor próprio.
+
+Resposta 1 - Você pode utilizar o serviço GitHub Actions [1] para automatizar todo esse processo. Basta criar um pipeline com todos os passos que o seu script está fazendo atualmente. 
+Uma maneira simplificada de testar/validar isso em poucos passos poderia ser criar um pipeline com os seguintes passos: cria a imagem do container docker a partir do repositório 
+(imagino que você já tem um Dockerfile para isso no repositório e se não tiver, sugiro que crie um arquivo desses para descrever a criação automatizada da imagem)publica a imagem em 
+um registro imagens (ex: DockerHub, AWS ECR, etc.)executa um script remotamente o servidor alvo, via ssh, para subir a nova no servidorVocê pode expandir essa ideia para incluir também 
+as etapas de teste. O segundo passo é opcional, mas facilita bastante a transferência da imagem pois basta dar um "docker push" de dentro no step para publicar no registro e um 
+"docker pull" no servidor alvo para obter a última versão da imagem. Para executar o script remotamente via SSH você pode usar um par de chaves de autenticação e salvar a chave privada
+de forma protegida nas variáveis Secrets [2] do GitHub Actions.Referências:1. https://docs.github.com/en/actions/publishing-packages/publishing-docker-images2. 
+https://docs.github.com/en/actions/security-guides/encrypted-secrets.
+
+Pergunta 2 - Não entendi o motivo pelo qual a questão 10 "Em um ambiente de DevOps, qual é o PRINCIPAL objetivo do feedback contínuo?" a opção correta seria sobre melhorar a qualidade e 
+a eficiência do processo de desenvolvimento. Entendo que o feedback contínuo seria a última etapa do ciclo de DevOps, dando insumos para o planejamento com base no software que foi 
+colocado em produção. Pra mim, então, faria mais sentido dizer que o feedback contínuo, por ter a ver com transparência e comunicação, estaria melhor relacionado à facilitar a 
+colaboração entre as equipes de desenvolvimento e de operações, não? A minha percepção pessoal seria de que "as primeiras etapas" do ciclo são mais relacionadas à qualidade e 
+eficiência do processo de desenvolvimento, pois envolvem processos como revisão de código, testes automatizados, builds automatizados, etc.
+
+Resposta 2 -  A resposta está correta, visto que O principal objetivo do feedback contínuo em um ambiente de DevOps é melhorar a qualidade e a eficiência do processo de
+desenvolvimento, permitindo a identificação e resolução rápida de problemas e melhorando a comunicação entre as equipes. Logo está resposta envolve revisão de código, testes e bulds, 
+além da comunicação continua entre as equipes. 
+
+Pergunta 3 - Achei que essa seria uma disciplina voltada para o TCC especificamente, orientando O QUE e COMO FAZER. Porém é somente mais uma disciplina de conteúdo. Estamos todos 
+muito preocupados com essa questão TCC, pois não estamos encontrando uma direção. Com os conteúdos apresentados durante o curso de pós, é impossível desenvolver uma aplicação 
+completa e funcional, é necessário fazer alguns cursos externos em outras plataformas para conseguir entregar uma aplicação. Porém o tempo está escasso para fazer mais cursos, desenvolver 
+aplicação, testar, e escrever todo a parte teórica do TCC, que não sabemos como deve ser feito. Em outra pergunta que fiz na matéria de Projeto e Desenvolvimento de Aplicação WEB 1, 
+tive retorno que teremos um orientador, como será isso? Será online, agendaremos horários e conversaremos com esse professor de forma online, ou serão apenas trocas de mensagens e e-mails?
+Acredito que cabe a PUC esclarecer as coisas para os participantes desse curso, está tudo mundo obscuro, sem contar com o descontentamento com o conteúdo aprensentado em contra partida pelo 
+valor investido. Aguardo retorno esclarecendo todas as questões, referente a TCC pois desse formato não temos como pensar em TCC.  
+
+Resposta 3 - Achei que essa seria uma disciplina voltada para o TCC especificamente, orientando O QUE e  COMO FAZER. Porém é somente mais uma disciplina de conteúdo: Sim é de conteúdo e faz 
+parte da grade do Curso. Estamos todos muito preocupados com essa questão TCC, pois não estamos encontrando uma direção: Vocês terão essa direção ao término das disciplinas. Com os 
+conteúdos apresentados durante o curso de pós, é impossível desenvolver uma aplicação completa e funcional, é necessário fazer alguns cursos externos em outras plataformas para conseguir 
+entregar uma aplicação: Na verdade, tu vais decidir que tecnologias utilizar e o que desenvolver em conjunto com teu orientador. Porém o tempo está escasso para fazer mais cursos, 
+desenvolver aplicação, testar, e escrever todo a parte teórica  do TCC: Vocês terão tempo para isso. Que não sabemos como deve ser feito: tudo vai depender do que será combinado 
+com o Orientador de TCC. Em outra pergunta que fiz na matéria de Projeto e Desenvolvimento de Aplicação WEB 1, tive retorno que teremos um orientador, como será isso? Isso mesmo, para 
+escrever o projeto e aplicar. Será online, agendaremos horários e conversaremos com esse professor de forma online, ou serão apenas trocas de mensagens e e-mails? Será remoto, 
+o Orientador define, junto contigo as datas e horários. Acredito que cabe a PUC esclarecer as coisas para os participantes desse curso, está tudo mundo obscuro, sem contar com o 
+descontentamento com o conteúdo apresentado em contra partida pelo valor investido: foi enviado mensagem sobre a disciplina onde houve maior descontentamento, infelizmente até agora não 
+recebi nenhum feedback. Aguardo retorno esclarecendo todas as questões, referente a TCC pois desse formato não temos como pensar em TCC: Assim que terminarem todas as disciplinas vocês 
+terão todas as orientações necessárias para a elaboração do TCC, que pode ser uma solução ou um memorial. Espero ter tirado todas as tuas dúvidas, qualquer coisa, se elas persistirem, 
+envia mensagem novamente. Estou a disposição para esclarecimentos. 
+
+Pergunta 4 - É possível informar uma data, quando teremos o primeiro contato com o orientador? Como será, irá abrir uma nova disciplina do curso TCC, e por ali serão realizados os 
+agendamentos dos contatos? Ou a PUC entrará em contato de alguma forma? Como de fato saberemos que esse momento com o orientador chegou? Qual o tempo total que teremos para desenvolver 
+o TCC, 2 meses, 10 meses? Como a PUC tem a informação da "Disciplina que teve maior descontentamento" é através da opção "Avalie a Disciplina" disponível no portal? 
+
+Resposta 4 -  Esclarecendo: É possível informar uma data, quando teremos o primeiro contato com o orientador? Alexsander, ao final das disciplinas, vocês terão os nomes do orientadores 
+para propor o TCC e entrarão em contato com o escolhido para alinhamentos. Como será, irá abrir uma nova disciplina do curso TCC, e por ali serão realizados os agendamentos dos contatos? 
+Temos que aguardar a resolução da Coordenação do Curso, estou em contato. Ou a PUC entrará em contato de alguma forma? como de fato saberemos que esse momento com o orientador chegou? 
+Após o final das disciplinas isso será alinhado com vocês. Qual o tempo total que teremos para desenvolver o TCC, 2 meses, 10 meses? 6 meses. Como a PUC tem a informação da "Disciplina 
+que teve maior descontentamento" é através da opção "Avalie a Disciplina" disponível no portal? Eu prefiro que envie para o mau e-mail. marcia.flores@pucrs.br, para eu coletar os feedbacks 
+e poder acionar a coordenação para as melhorias.
+
+Pergunta 5 - Estou tentando reproduzir a montagem do pipeline que o professor Cassio esta mostrando na aula mas não estou conseguindo. Fiz um fork do projeto nodepipeline-devops do github do professor
+e segui as orientações como foi relatado na aula. Com muita dificulda consegui passar no codebuild da fase pre_build, pois estava faltando uma permissão no role iam  que estava utilizando que 
+o professor não comentou. Agora estou parado na fase buid e o codebuild esta dando log de erro: [Container] 2023/06/06 16:01:41 Phase complete: BUILD State: FAILED[Container] 2023/06/06 16:01:41 
+Phase context status code: COMMAND_EXECUTION_ERROR Message: Error while executing command: docker build -t nodepipeline-devops .. Reason: exit status 1
+[Container] 2023/06/06 16:01:41 Command did not exit successfully docker push 189450513220.dkr.ecr.us-east-1.amazonaws.com/nodepipeline-devops:latest exit status 1[Container] 
+2023/06/06 16:01:41 Phase complete: POST_BUILD State: FAILED[Container] 2023/06/06 16:01:41 Phase context status code: COMMAND_EXECUTION_ERROR Message: Error while executing 
+command: docker push 189450513220.dkr.ecr.us-east-1.amazonaws.com/nodepipeline-devops:latest. Reason: exit status 1. Por favor preciso de sua ajuda.
+
+Resposta 5 - Quando se usam vários containers, com arquivo yaml Docker-compose, deve-se ativar o modo privilegiado para o seu CodeBuild, para o paipeline poder fazer login na AWX, 
+criar e marcar as imagens. Estás usando o Docker? Me parece que falta o comando Docker push, estás utilizando o Docker. Se fores no serviço CodeBuild e anexar as políticas necessárias e 
+permissões acredito que pode dar certo: { "Version": "2012-10-17",
+"Statement": [
+{
+"Action": [
+"ecr:BatchCheckLayerAvailability",
+"ecr:BatchGetImage",
+"ecr:CompleteLayerUpload",
+"ecr:GetDownloadUrlForLayer",
+"ecr:InitiateLayerUpload",
+"ecr:PutImage",
+"ecr:UploadLayerPart",
+"ecr:SetRepositoryPolicy",
+"ecr:DescribeImages",
+"ecr:DescribeRepositories",
+"ecr:ListImages",
+"ecr:DeleteRepositoryPolicy",
+"ecr:GetRepositoryPolicy",
+"ecr:GetAuthorizationToken"
+],
+"Effect": "Allow",
+"Resource": "arn:aws:ecr:us-east-1:<ACCOUNT_ID>:repository/dev-repo"
+},
+{
+"Action": [
+"ecr:GetAuthorizationToken"
+],
+"Effect": "Allow",
+"Resource": "*"
+},
+{
+"Effect": "Allow",
+"Action": [
+"ecr-public:GetAuthorizationToken",
+"sts:GetServiceBearerToken"
+],
+"Resource": "*"
+}
+]
+}
+Quanto ao segundo erro: Vou te passar esse link para que possas auxiliar na solução, pois menciona, justamente o mesmo status de saída:  
+https://stackoverflow.com/questions/67950091/docker-push-with-aws-codebuild-fails-with-exit-status-1.
+
+Pergunta 6 - Vendo um outro exemplo na internet, resolvi testar o projeto nodepipeline-devops na minha máquina e notei que está falhando na construção da imagem.
+Estou executando o seguinte comando:
+docker
+build -t nodepipeline-devops -f Dockerfile .
+O docker começa a executar e quando chega no comando "RUN 
+apt-get update && apt-get install git -y && apt-get
+install imagemagick -y;"
+o processo para a execução e emite a seguinte mensagem:
+"Dockerfile:7
+--------------------
+5
+| # RUN apt-get install imagemagick -y
+6
+|
+7
+| >>> RUN apt-get update && apt-get install git -y
+&& apt-get install imagemagick -y
+8
+9
+| WORKDIR /ecs-app
+--------------------
+ERROR:
+failed to solve: process "/bin/sh -c apt-get update && apt-get install git -y && apt-get install imagemagick -y" did not complete successfully: exit code: 100"
+Neste momento estou pesquisando outros comandos que possam substituir o que está provocando o erro. Parece que a versão da imagem node:12 no docker hub está com uma versão 
+diferente do linux e mão esta aceitando os comandos apt-get update e nem o apt update. Você consegue me ajudar nesta questão. Obs.: já testei subindo as imagens que foram utilizadas 
+na aula de devops básica do professor Fabricio Veronez, tando do exemplo ubuntu quando do CI que criamos do coversao-temperatura no meu docker instalado e funcionou.
+Estou aqui so pra te da um feedback, realmente as permissões do role iam e o pagina do forum me ajudaram, consegui reproduzir a parte da aula que eu estava agarrada, mas não 
+foi utilizando o projeto nodepipeline-devops da aula do professor Cassio, mais sim o projeto conversao-temperatura do professo fabricio. Vou continuar tentando entender o que esta 
+acontecendo com o projeto da aula.Mas ja agraço muito a sua ajuda, consegui avançar mais um passo no entendimento do assunto.
+
+Resposta 6 - A pesquisa sempre é importante na nossa área. Rever as aulas igualmente, logo, caso a dúvida persista, nos envia mensagem que te ajudo sim.
+
+Pergunta 7 - Minha dúvida é referente ao IAM, eu não possuo esse Service Role, qual a maneira que foi criado e configurado?
+
+Resposta 7 - Para criar uma função vinculada ao serviço (console), primeiro -> Faça login no AWS Management Console; segundo-> abra O CONSOLE DO iam EM HTTPS://CONSOLE.AWS.AMAZON.COM/IAM/. ; 
+Depois no painel de navegação do console do IAM, escolha o perfil Roles; escolha create role para criar o perfil e logo após, escolha o tipo de função AWS Service que precisas.
+
+Pergunta 8 - na fase de pre-build estou recebendo um erro, identifiquei que o build falha na linha 9 do arquivo buildspec.yml, a principio é um erro de acesso negado, mas não sei 
+onde configuro este acesso. Comando: [Container] 2023/06/15 00:45:24 Running command aws ecr get-login-password --region us-east-1 | docker login --username 
+AWS --password-stdin 508995340562.dkr.ecr.us-east-1.amazonaws.com. Erro recebido: An error occurred (AccessDeniedException) when calling the GetAuthorizationToken operation: 
+User: arn:aws:sts::508995340562:assumed-role/00-nodepipeline-devops-service-role/AWSCodeBuild-324b639b-ef79-4439-8fcb-42b36e56a7fa is not authorized to perform: ecr:GetAuthorizationToken 
+on resource: * because no identity-based policy allows the ecr:GetAuthorizationToken action Error: Cannot perform an interactive login from a non TTY device.
+
+Resposta 8 - Na fase pré-build são necessários o acesso ao Docker, devido a o uso da imagem e do AWS, criastes a conta, certo? Estou enviando arquivo com a configuração do CI e 
+Docker. Usa essa configuração para o yml que teu pré-build dará certo - Foi enviado aruqivo de configuração para o aluno.
+
+Pergunta 9 - Poderia passar qual o repositorio do professor Fabricio? Estou mesmo erro do colega.
+
+Resposta 9 - O projeto elaborado na aula do professor Fabrício (DevOps Básico) está em conteúdo -> Disciplina -> Aula 1 --> Workflow, na sala de aula virtual. 
+
+Pergunta 10 - Fiquei em dúvida quanto a questão 5 do teste da disciplina e não sei qual dos professores poderia me ajudar (Cassio ou Marcelo). Pergunta: Questão 5
+A integração contínua (CI) é uma prática fundamental no processo DevOps. Qual das seguintes opções descreve a Integração Contínua?
+Respostas:
+a. A implantação automática de código em produção sempre que um desenvolvedor faz um commit.
+b. A prática de combinar frequentemente as mudanças de código em um repositório central e executar testes automatizados para identificar problemas o mais rápido possível.
+c. O processo de monitoramento e análise do desempenho do sistema em tempo real.
+d. A gestão do versionamento de configurações de infraestrutura e aplicativos.
+As respostas c e d, não não dos respeito a CI. As respostas a. e b. ao meu ver são verdadeiras. Marquei a letra a, com base nas explicações do professor Cassio (Video Aula 01 parte 3, 10:08), 
+que diz claramente o processo da Integração Contínua, inclusive deu ênfase o que diferencia CI de CD.
+A opção b, pode ser aplicada tanto para CI como para CD, não sendo assim exclusiva da primeira. Fico no aguardo de uma melhor explicação para a resposta e ajustes no resultado, se justificar.
+
+Resposta 10 - Segundo professor Edson, Integração Contínua (CI) e Entrega Contínua (CD) são conceitos intimamente relacionados. Na prática de DevOps, ambos trabalham juntos para melhorar 
+a eficiência e a qualidade do processo de desenvolvimento de software. Dito isso, vou explicar a diferença crucial entre os dois para esclarecer a resposta correta para a questão do teste. CI 
+refere-se ao processo de combinar frequentemente as mudanças de código em um repositório central e depois realizar testes automatizados para identificar e resolver problemas o mais rápido possível. 
+Isso evita o "inferno da integração", um problema que ocorre quando os desenvolvedores trabalham isoladamente e combinam suas alterações de uma vez, levando a conflitos de código e bugs. Por outro 
+lado, CD estende o conceito de CI para garantir que o software possa ser liberado a qualquer momento. Isso implica na implantação automática de código em um ambiente de produção sempre que um 
+desenvolvedor faz um commit, dado que todos os testes sejam aprovados. Portanto, em resposta à questão 5, a opção "b" descreve corretamente a prática de CI, enquanto a opção "a" se refere mais 
+apropriadamente à prática de CD. É uma distinção sutil, mas crucial no processo DevOps.
+
+Pergunta 11 - Estas configurações são do projeto de devops básico, é isso mesmo? 
+
+Resposta 11 - Sim, mas sem essa configuração básica, tu podes ter problemas da buildar teu projeto. 
+
+Comentário 2 - O repositorio nodepipeline-devops, consegui realizar o exemplo completo, mas tive que fazer as seguintes modificações:
+1º claro foi colocar as permissões que você me passou no role iam;
+2° foi modificar o Dockerfile: onde estava "From node:12"  mudei para "FROM node:18.15.0"
+3º no codebuild marquei a opção de usar "opções avançadas do docker" no momendo que especificamos o sistema operacional a ser utilizado.
+Quando fiz isso o exemplo passou igual o exemplo da aula.
+
+Resposta 2 - Perfeito! O Node.js deve sempre conter a versão que estás usando.
+
+Comentário 3 - Errata: no 3º marquei foi "Habilite esse indicador se quiser criar imagens do Docker ou quiser que suas compilações obtenham privilégios elevados".
+
+Resposta 3 -  Ajudou sim! Obrigada pela contribuição.
+
+Comentário 4 - A PUCRS, mais que ninguém, é sabedora que o método adotado em todo o curso provavelmente não atingiu o mínimo necessário esperado pelos seus alunos. 
+Sugerimos a PUC que fizesse uma pesquisa de satisfação com seus alunos e dependendo do resultado se posicione. 
+
+Resposta 4 -  Estamos providenciando um Use Experience para o Curso, mas tenho que aguardar a coordenação.
+
+Comentário 5 - Segue a minha reclamação só para você ter uma ideia da situação crítica: "Boa noite professor Marcelo Veiga Neves. Gostaria de realizar uma reclamação a respeito 
+de que todos os exemplos em linhas de código das aplicações web apresentadas ao longo do curso, não são avançadas, mesmo disponibilizando as linhas do código para os alunos 
+testarem as suas habilidades (o front-end não se comunica com o back-end, banco de dados), como o mercado de trabalho está exigindo hoje em dia. Eu já paguei este curso inteiro, 
+já enviei as 10 indicações a meus amigos para que eles também façam o curso. Infelizmente, ao ver as disciplinas apresentadas e seus conteúdos 90% teóricos e 10% práticos (linhas de código), 
+todos desistiram. É como dar um livro para um aluno onde ele só lê a capa e o verso, não consegue abrir e ver toda a estrutura (linhas de código), mesmo que seja código aberto 
+sem direitos autorais. Espero compreensão da sua parte. Eu preciso de um modelo (linhas de código) de um sistema web completo (front-end se comunicando com o back-end, banco de dados) 
+e avançado (tecnologias 2023), para realizar testes e modificações, etc. Já faz 6 anos que eu faço cursos baratos e práticos na internet, e todos eles apresentam falhas na execução, 
+isso quando executam. Eu não quis compartilhar a minha frustração com os alunos, por isso estou mandando essa reclamação apenas para o professor. Muito obrigado pela atenção. Aguardo retorno.".
+
+Resposta 5 - Os comentários foram repassados ao Professor e a Coordenação do Curso, como disse anteriormente, estamos providenciando um Use Experience para o Curso, mas tenho 
+que aguardar a coordenação. Diante disso, com a proposta de Use Experience já enviada a Coordenação, precisamos aguardar o retorno. Neste Use Experience vocês poderão comentar 
+minuciosamente, se for o caso, todos os pontos, observados por vocês no Curso. Reforço, estamos aguardando a aprovação para colocar em prática este Canvas de Use Experience.
+
+Comentário 6 - Estou com a seguinte mensagem de erro:
+Build failed to start
+Build failed to start. The following error occurred: Cannot have more than 0 builds in queue for the account.
+
+Resposta 6 -  No link https://github.com/cassiowt/nodepipeline-devops, baixa em "Code" -->  Dowload ZIP o projeto do professor Cassio. I projeto vai ser baixado compactado, 
+descompacta e abre em um no "File" este projeto. Compara o teu com o dele, pois sem o print, só com a informação de falha de build, está complicado de te ajudar da melhor 
+forma possível. Na tentativa de melhor te auxiliar segue material pro professor Cássio. A partir da página 26 ele trata com exemplo e print te tela como Buildar. 
+
+Comentário 7 - Não explica como criar a Role. Pra mim não aparece nenhuma role criada.
+
+Resposta 7 - Para criar uma role é necessário ter em mente que após criar funções, você pode conceder privilégios de objeto à função e depois conceder a função a outras funções 
+ou usuários individuais para permitir a segurança do controle de acesso para objetos no sistema. Uma "Role", para ser mais simplista, está ligado ao CodePipeline, assim, na tentativa 
+de auxiliar melhor, clica no link: GitHub - cassiowt/cloudformation-demo: Exemplo de Cloud Formation para cursos DevOps. --> "Code" --> Download Zip --> Vai baixar compactado, descompacta 
+e novamente abre um novo "File" no VS code para abrir o projeto. Compara com o teu. O professor Cássio trata de "Role" a partir da página 13 do pdf apresentado na aula. Estou te enviando em anexo. 
+Qualquer coisa me chama.
+

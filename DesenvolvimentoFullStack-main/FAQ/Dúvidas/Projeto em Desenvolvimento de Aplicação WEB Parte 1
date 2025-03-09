@@ -1,0 +1,344 @@
+## Comentários e orientações:
+
+1 - Apresentação dos Alunos;
+
+2 - Apresentação da Tutora;
+
+3 - Criação de grupo no Whatsapp, com alunos do Curso - Entre em: https://chat.whatsapp.com/Hq0URLZQ1QAEPC62cdk0HJ para participar;
+
+4 - Divulgação do GitHub com FAQ e passo a passo para auxiliar os alunos na instalação das tecnologias e uso do GitHub. 
+Veja em: Segue Github: https://github.com/marciafloress/Desenvolvimento-Full-Stack-PUCRS/wiki;
+
+5 - Orientações para uso do GitHub - veja em: https://github.com/skills/introduction-to-github.
+
+Pergunta 1 - Vi que no cronograma do curso esta previsto o estudo de REACT e isso me gerou uma dúvida, é obrigatório que o projeto seja desenvolvido em React? 
+Pergunto isso pois atualmente já tenho um conhecimento em VueJs e teria que aprender totalmente do zero React?
+
+Resposta 1 - Vocês terão aulas de React para aprender a utilizar no desenvolvimento dos projetos, logo, o ideal é que utilize React. 
+
+Pergunta 2 - Se fizer em outra tecnologia teria alguma penalidade na nota final? 
+
+Resposta 2 - Podes usar Vue.js sim, não acarreta nenhuma penalidade na nota final.
+
+Pergunta 3 - Eu estou me atualizando do curso pois estive ausente por problemas de saúde na família. Consigo um link ativo do grupo do Whatsapp? 
+
+Resposta 3 - O link para o Whatsapp é https://chat.whatsapp.com/Hq0URLZQ1QAEPC62cdk0HJ.
+
+Pergunta 4 - Os alunos tem acesso ao repositório das soluções apresentadas na aula? Gostaria de ler o código com calma. 
+
+Resposta 4 - Os códigos estão na Sala Virtual , em materiais de aula.
+
+Pergunta 5 - Onde ficam armazenados os downloads realizados, via App do Curso, no caso de IOS?
+
+Resposta 5 - Em IOS os arquivos ficam em: arquivos (default da apple) -> meu iphone -> ﻿pasta pucrs online.
+
+Pergunta 6 - Eu fiquei com dúvida em relação a entrega, trabalho de fechamento de curso. Hoje finalizei o módulo de Programação Orientada a Objetos, 
+e essa dúvida se deu justamente por não saber se eu deveria já atuar em algum ponto visando o trabalho final. Tenho acompanhado as aulas, 
+replicando "alguns" códigos demonstrados (somente os que tenho mais dúvidas), e outros códigos eu executo do próprio material fornecido via repo 
+no github. Entendi que temos 2 opções: - Desenvolver uma solução aplicando tudo que aprendemos durante o curso; 
+- Entregar um portfolio com tudo desenvolvido no curso. A entrega pode ser de um ou dos dois itens. Correto?
+A dúvida sobre a questão do portfolio com o desenvolvido durante o curso, é se deveria ser somente o código 
+replicado das aulas? Ou se tem alguma área com desafios ou coisas do tipo de códigos que precisaríamos desenvolver para entregar?
+
+Resposta 6 - Esclarecendo: temos duas opões de TCC, uma que é a solução em si e a outra o memorial, certo? No TCC os alunos terão 
+professores orientadores, que darão um auxílio nas dúvidas. Importante, no caso de escolheres desenvolver a solução, deves sim, 
+utilizar todas as tecnologias vistas no curso, já no caso do memorial, deves, da mesma formar escrever, o TCC mencionando as tecnologias. 
+Essa questão de replica das aulas , no memorial fica a cargo do orientador, que lhes orientará, como já mencionei.
+
+Pergunta 7 - Já podemos começar a desenvolver o TCC, ou precisamos esperar a conclusão de todos os modulos primeiro? Exemplo: Criar o github para armazenar o projeto, 
+idealização, começar a levantar requisitos, e etc.? 
+
+Resposta 7 -  O ideal é terminar todos os módulos, visto que vocês terão orientador. Exemplo: Criar o github para armazenar o projeto, idealização, começar a levantar requisitos, e etc... 
+A documentação e criação de contas, etc... Pode ser feita sim, mas sempre lembrando que a ideia deverá ser exposta ao orientador.
+
+Pergunta 8 - Vocês possuem algum template Latex do projeto escrito?
+
+Resposta 8 -  Quando vocês iniciarem o TCC, junto com o orientador, todas as informações serão passadas.
+
+Pergunta 9 - Gostaria de saber qual é a opinião dos professores, em termos de stack, sobre as diferenças entre frameworks back-end como Django e Node, tirando a parte 
+da linguagem dos frameworks. Existe alguma diferença perceptível em termos de escalabilidade, segurança e até mesmo performance?
+
+Resposta 9 - O Django é utilizado em analise de dados, junto ao Phyton, Já o Node.js é um framework para desenvolvimento de soluções web. Dito isso, não vejo 
+diferença em relação a escalabilidade, segurança e performance, mas veja, nosso curso é voltado para microservices, o que diminui muito a escalabilidade de soluções 
+web.
+
+Pergunta 10 - Microservices diminui a escabilidade, é isso? 
+
+Resposta 10 - Entendo que microservices seja uma segmentação de funcionalidades de sistemas que podem estar distribuídas e de alguma forma disponíveis via rede para 
+compor um sistema. A escalabilidade já dependeria da infraestrutura utilizada para disponibilizar cada microsserviço. A relação microservices x escalabilidade entendo 
+ser fraca, embora um sistema dividido em microsserviços pareça ser mais fácil de escalar, pois demandaria menos recursos você prover mais capacidades pra um serviço 
+do que para um sistema inteiro (Contribuição de um de nossos alunos. A perguta foi enviada a Coordenação).
+
+Resposta 10(2) - A arquitetura de microsserviços é uma abordagem de desenvolvimento, cuja ideia é “fazer apenas uma coisa e fazê-la bem”. Ou seja, em vez de construir 
+uma aplicação em forma de monólito, é feito um desmembramento dos serviços em partes menores. Os benefícios dessa arquitetura são alta escalabilidade, resiliência, 
+facilidade de implantação e aumento na eficiência da manutenção dos sistemas. Existem alguns itens que são fundamentais para o sucesso das operações dos microsserviços.
+São eles:  Estabilidade;  Escalabilidade;  Padronização;  Alta tolerância a falhas;  Infraestrutura confiável.  
+Atualmente, existem vários modelos de como um ecossistema de microsserviços pode ser organizado. Um deles, que é interessante e bem estruturado, foi criado por 
+Susan J. Fowler, uma engenheira de software americana. Em seu livro intitulado Production-Ready Microservices, Susan divide o ecossistema de microsserviços em quatro 
+camadas, sendo elas: Hardware;  Comunicação;  Plataforma de aplicações;  Microsserviços. Apesar dessas camadas estarem interligadas, estabelecer essa divisão nos 
+ajuda a entender melhor quais são as responsabilidades de cada uma e os diferentes módulos que compõem o ecossistema da arquitetura de microsserviços.
+
+Pergunta 11 - Onde está disponível o projeto teste que é mencionado no tutorial do git?
+
+Resposta 11 -  Estão na plataforma de ensino, na disciplina. Temos, também um FAQ, com perguntas e comentários: 
+https://github.com/empucrs/DesenvolvimentoFullStack
+
+Pergunta 12 - Confesso que estou meio perdido.... Onde se encontra essa plataforma de ensino? Já mexi aqui na plataforma e não encontrei referência a esse GitHub... 
+Só encontrei os materiais da aula (Slides, complementares e o Tutorial do GitHub).
+
+Resposta 12 - Na plataforma de ensino ou sala virtual, onde tu vê os vídeos e faz o teste, clica em Conteúdo --> Disciplina Projeto em Desenvolvimento de aplicações 
+WEB - Parte 1 --> Materiais e faz o donwload de tudo. No Github, basta clicar no link: https://github.com/empucrs/DesenvolvimentoFullStack. Neste link tens acesso 
+aos tutoriais, FAQ, projetos desenvolvidos na disciplina e desafio de Programação orientada a Objetos. Coloquei o ProjetoTeste na sala de aula virtual --> Nome da 
+Disciplina --> Materiais . Acho que assim fica mais fácil.
+
+Comentário 1 - Desculpe mas de fato não consigo encontrar esse Projeto teste. Além dele já não encontro mais o tutorial do Git. Não sei se é só comigo mas parece que 
+os locais que estou acessando conforme as orientações não tem os materiais ou estão em outro que não encontro. O link do github acima eu não encontro o Projeto Teste, 
+conforme anexo. Aqui nesse link: Conteúdo --> "Disciplina Projeto em Desenvolvimento de aplicações WEB - Parte 1 --> Materiais" So vejo dois materiais. Os slides e o 
+material complementar que tem 4 links. Dois para os github sobre Javascript e dois para sites sobre algoritmos de ordenação (sorting).  Um tutorial que eu tinha visto 
+não encontro. Estou achando bastante confuso essa sala.Acho que deveriam ter uma aula sobre o Git e github para auxiliar a quem não tem tanta familiaridade, estou 
+consultando outros materiais para entender.
+
+Reposta 1 - Foi tirado do sala virtual o ProjetoTeste e o tutorial para ajustes, no github, foi feito o mesmo processo. Estou aguardando a validação da coordenação 
+para reenviar. A aula sobre git e github estão na disciplina de DevOps Básico, com os professores Fabricio Veronez e Marco Aurélio souza Mangan.
+
+Pergunta 13 - Já vi os 4 vídeos e o Livro Online da disciplina, mas fiquei na dúvida: essa disciplina terá algum material a ser entregue nesse momento? Terá uma 
+avaliação nesse momento?
+
+Resposta 13 -Projeto em Desenvolvimento de Aplicações Web foram divididas em duas partes, a 1, que já viste e a 2, nesta conterá um teste online para finalização da 
+disciplina. Para finalização do Curso de pós graduação, vocês terão orientadores e decidirão junto com eles se desenvolverão uma solução utilizando todas as 
+ferramentas do curso ou se farão um memorial. 
+
+Pergunta 14 - Posso fazer o Back-End da aplicação com Spring/Java?
+
+Resposta 14 - Podes usar sim Spring/Java.
+
+Pergunta 15 - É possível marcar uma conversa para tratar sobre TCC? Quanto ao orientador, temos opção de escolha ou já está predefinido?
+
+Resposta 15 - Todas essas questões referentes a orientadores e orientações serão tratadas com os alunos. Atualmente o professor Edson, nosso Coordenador está 
+organizando estes processos e vocês serão avisados.
+
+Pergunta 16 - Ja temos a definição de quem será o orientador do TCC? Ou temos uma previsão? Quando devemos começar a desenvolver o TCC? 
+
+Resposta 16 - Os orientadores serão escolhidos por vocês, que conversarão com estes para definir orientação. No teu caso, que iniciou o curso em setembro de 2022, 
+provavelmente entrarás em TCC em agosto/setembro de 2023, mas ressalto que serão avisados. 
+
+Pergunta 17 - Como vocês vêem o mercado para o desenvolvedor full stack frente ao aparecimento de inteligências artificiais capazes de montar algorítmos, como o 
+chatGPT?
+
+Resposta 17 - O Mercado para desenvolvimento full stack continua aquecido, são milhares de vagas, que não são preenchidas devida a falta de pessoal especializado. O 
+uso de Inteligências artificiais, está aquecido, mas ainda é necessário a interação humana, Quanto ao chatGPT, nem todas as empresas ou Startups utilizam essa 
+tecnologia, mas ainda assim, por mais que o chatGPT esteja em alta, existe a falta do profissional para elaborar os requisitos junto ao cliente, elaborar o diagrama 
+de Entidade para o banco de dados e os demais diagramas ou estórias para documentação. Logo, não há substituição, pois o fator humano é imprescindível na nossa área.
+
+Pergunta 18 - Gostaria de fazer mais uma pergunta. Dentre os assuntos que veremos nestas mais de 20 disciplinas, será abordada a Lei Geral de Proteção de Dados 
+Pessoais (LGPD)?
+
+Resposta 18 - Ela é mencionada, mas não totalmente abordada.
+
+Pergunta 19 - Como vocês enxergam o mercado de Desenvolvimento de Software daqui para frente dado a crise que estamos vivendo. Layoffs para todos os lados, 
+unicornios caindo, ofertas salarias abaixando, exigencias das vagas subindo, e etc? 
+
+Resposta 19 - Como comentado anteriormente, temos, desde a alguns anos o aquecimento no mercado de desenvolvimento de software, onde há milhares de vagas e poucas 
+pessoas qualificadas para o trabalho. Normalmente startups, unicórnios, etc... caem devido a falta de investimento ou até mesmo, devido a solução proposta ao mercado, 
+que não atende e não atraem o cliente. Esse último é um fator determinante para a sobrevivência dessas empresas. diante disto, inovar e pivotar é essencial para 
+qualquer empresa. A própria Amazon passou por esse tipo de problema, pivotaram e hoje são os "grandes" do mercado. Sendo assim, e diante da realidade em que vivemos 
+tanto os desenvolvedores, quanto os gestores devem estar focados para desenvolver soluções bem testadas e entregarem um software robusto que atenda a demanda dos 
+clientes, bem como  investir em educação continuada, pesquisa de mercado, pivotagem para poderem se manter neste mercado tão competitivo, que sim... Tens toda 
+razão... onde as exigências das vagas sobem devido ao mercado que essas empresas atendem e as novas tecnologias que surgem constantemente.
+
+IMPORTANTE - Todas as turmas podem criar seus grupos no Whatsapp e no Discord para se conectarem. O ideal é o grupo por turma. 
+
+Pergunta 20 - Não sei se ainda é o momento, mas fiquei com uma dúvida, referente ao projeto final, caso eu decida por fazer a solução web para  as tecnologias tanto 
+de front-end como de back-end, vai ficar a livre escolha, ou terá que ser exatamente as tecnologias vistas no curso? Pergunto isso, porque pelo que vi na grade, para 
+front-end vocês vão mostrar o React como framework principal, mas eu já possuo mais facilidade com angular, vi até que o professor apresentou um projetinho em angular,
+gostaria de saber se vou poder utilizar ou será estritamente Reac.
+
+Resposta 20 - As tecnologias utilizadas no projetos final devem ser as vistas no curso, mas Angular é um framework de JavaScript, então podes utilizar no teu projeto 
+final sim.
+
+Comentário 2 - Boa tarde pessoal, Se voce tem ingles e ja é desenvolvedor front/back, por favor me adicione no linkedIn, pois a empresa onde trabalho sempre esta 
+procurando por colaboradores. (Trabalho 100% remoto) pois empresa é na Inglaterra.
+
+Resposta 2 -  A tua turma tem grupo no WhatsApp? Vocês podem criar para o Curso e para essas informações. A turma criou grupo do discord. 
+
+Pergunta 21 - Confirmando se eu entendi corretamente, a conclusão do curso se da mediante a entrega de UM dos trabalhos, memorial ou projeto, certo? Não há 
+necessidade de fazer os dois, correto?
+
+Resposta 21 - Correto! Quando vocês entrarem em TCC e conversarem com os orientadores para o aceite de orientação, será definido em conjunto com o orientador(a) se 
+será desenvolvida a solução ou memorial. Não há necessidade de fazer os dois. 
+
+Pergunta 22 - Estou muito preocupada com o trabalho final do curso. Eu não sou programadora nem formada na área de ciências da computação. Apesar disso, estou há 1 
+ano trabalhando na equipe de desenvolvimento da CAIXA ECONOMICA FEDERAL, onde trabalho há 15 anos. O meu intuito de fazer esta pós é conhecer os conceitos que 
+permeiam o meu dia a dia. Especialmente escolhi a PUC/RS pois percebi que as matérias estão alinhadas com práticas de mercado e futuro. Porém, estou muito insegura, 
+pois ainda não sei programar, então não vejo como farei o trabalho. Tendo sentido esta necessidade, de saber o básico, iniciei uma graduação tecnológica mas não dará 
+tempo de aprender até a data da entrega do TCC. Podem me orientar?
+
+Resposta 22 - O TCC pode ser desenvolvido de duas formas: Uma solução com todas as ferramentas do curso ou um memorial escrito sobre o uso das ferramentas. No curso 
+vocês terão orientadores que auxiliarão tanto no projeto do TCC, quando na sua elaboração ou desenvolvimento. Então, fica tranquila, pois terás ajuda.
+
+Pergunta 23 - Na parte 2 da aula o professor fala que está disponível um template de documento a ser elaborado para o Memorial da Jornada de Formação. Onde posso 
+encotnrar esse template?
+
+Resposta 23 - O material ainda não está disponível na Sala de Aula Virtual. Será disponibilizado no final das disciplinas, pois vocês terão orientadores, que serão 
+escolhidos por vocês, para desenvolver o TCC.
+
+Pergunta 24 - Surgiu uma dúvida em relação ao exemplo de código mostrado nessa aula no Github. Ele está todo em português e não vejo problema algum nisso, porém, 
+gostaria de saber se é possível entregar em inglês?
+
+Resposta 24 - Sim, é possível.
+
+Pergunta 25 - Gostaria de adiantar o TCC, porém não sei o que posso fazer?  Preciso Desenvolver uma aplicação? Se sim, é necessário que ela tenha toda a parte 
+teórica de engenharia de software,  analise de requisitos, diagramas, casos de uso etc.., e essa aplicação precisa ser entregue funcionando? como? Quais linguagens 
+posso utilizar? Atuo como Desenvolvedor na Linguagem Progress 4gl/ABL, posso desenvolver uma aplicação utilizando essa linguagem em que trabalho? Existe outra opção 
+de TCC que não seja o desenvolvimento de uma aplicação? Se sim qual é e como funciona? O que pode ser feito, e o que precisa constar no trabalho?  Aguardo retorno 
+para que eu possa dar o Start nas pesquisas, pensar no tema, e iniciar o desenvolvimento do assunto.   
+
+Resposta 25 - Respondendo as tuas dúvidas: Vocês terão orientadores, logo o ideal é aguardar o final das disciplinas para alinharem os TCCs, com os respectivos 
+orientadores. Tu podes optar pelo desenvolvimento de uma aplicação, que deverá estar rodando, com todas as tecnologias vistas ou curso ou escrever um memorial, 
+reforço que deves aguardar pelo orientador para alinhar essas questões. Podes desenvolver uma solução para teu trabalho sim. Em relação ao tema e pesquisas, essas tu 
+já pode realizar sim, visto que se optares pelo desenvolvimento da solução ou memorial, terás que escrever o TCC. 
+
+Pergunta 26 - Estou com uma dúvida em relação ao projeto f inal. É possível utilizar o Next.js ou Remix, ambos em React, para desenvolver o projeto final pois ambos 
+possuem back-end integrado?
+
+Resposta 26 - Sim, é possível.
+
+Pergunta 27 - Gostaria de saber se vocês já podem compartilhar conosco a quantidade de dias que teremos para desenvolver e entregar o projeto final?
+
+Resposta 27 - Após o término das disciplinas sim.
+
+Pergunta 28 - Eu tenho uma ideia de TCC com quem eu poderia falar a respeito?
+
+Resposta 28 - Como ainda estamos em fase de disciplinas, escreve tua proposta de TCC e assim de liberarem as orientações e tu escolheres teu orientador, envia para ele.
+
+Pergunta 29 -  Gostaria de orientação para iniciar meu projeto final. Já tenho duas propostas de aplicação e gostaria que algum professor me orientasse em relação ao 
+documento que será preciso ser entregue, além do projeto em sim. No meu repositório -- https://github.com/jpcmf/GraduateProgram-FullStack-2023 -- Já é possível acessar as duas propostas.
+
+Resposta 29 - Ao término da disciplinas os alunos terão a lista de orientadores para escolher e enviar a proposta. A realização do TCC dependerá do Orientador, que passará todas 
+as instruções. vocês terão um período de TCC1, para escrever o projeto e TCC2 para desenvolver.
+
+Pergunta 30 - Não é possível adiantar?
+
+Resposta 30 - Tu podes, por hora fazer uma proposta de TCC, para depois enviar para o Orientador escolhido, até terminarem as disciplinas. 
+
+Pergunta 31 - Esta se aproximando da data do projeto e eu gostaria de saber mais informações, quando teremos acesso ao orientador?
+
+Resposta 31 - Tu vais postar teu projeto na sala de aula virtual. Os orientadores lerão tua proposta de projeto e entrarão em contato contigo através do Matrix.
+
+Pergunta 32 - Alguém sabe se essa disciplina tem avaliação? Digo no sentido de teste/questionário, não de feedback para os professores.
+
+Resposta 32 - Por se tratar de uma disciplina introdutória ao Curso não há teste online ou qualquer outra forma de avaliação para o aluno. 
+
+Pergunta 33 - Sou atualmente aluno do curso e estou na 5 disciplinas para finalização. Já tenho ideia para meu TCC e planejo seguir a modalidade 2 (aplicação + documentação + apresentação) 
+como entrega. Como consigo obter um professor para ser meu orientador até o final do TCC? Devo enviar algum pedido por aqui no sistema?
+
+Resposta 33 - Na sala de aula virtual, clica em Orientação de TCC e Depósito de TCC. Os professores verão teu projeto e um deles te chamará para orientação.
+
+Comentário 3 - Estou, novamente, com um GAP de 10 dias na minha orientação. Na ultima versão adicionei 2 capítulos ao trabalho e postei dia 09/09 para nova revisão. 
+Já lancei 2 comentários questionando sobre novas orientações ou se estaria pronto o trabalho, porém nada de resposta. Vejo que falta pouco mais de 30 dias para o prazo do TCC, 
+consegues verificar o que pode estar ocorrendo?
+
+Resposta 3 - Resposta da Coordenação do Curso - Farei contato com o profesor.
+
+Pergunta 34 - Gostei muito dos eixos que foram apresentados e gostaria de agradecer pela, mas fiquei com uma dúvida hoje em dia estamos vendo um crescimento gigante em relação a 
+inteligência artificial, principalmente aliada ao desenvolvimento, então gostaria de perguntar, essa seria uma tecnologia que será abordada em algum momento? Além disso gostaria de 
+saber sua opinião sobre o futuro da profissão de desenvolvedor, vi vários CEOs de grandes empresas falando que pretendem substituir funcionários pela IA, o senhor acha que a profissão de 
+dev vai ser prejudicada por essa nova tecnologia? ou apenas servirá como mais uma ferramenta para auxiliar na construção de soluções digitais?
+
+Resposta 34 - Boas questões, trouxestes. Gostaria de perguntar, essa seria uma tecnologia que será abordada em algum momento? No curso, é falado sobre IA e o Chat GPT, inclusive 
+o professor, na Disciplina de Projeto em Desenvolvimento de Aplicações WEB - Parte 2, não só aborda o assunto como utiliza a ferramenta, mas veja, ele usa parte do código gerado pelo 
+Chat GPT e não todo ele.  Além disso gostaria de saber sua opinião sobre o futuro da profissão de desenvolvedor, vi vários CEOs de grandes empresas falando que pretendem substituir 
+funcionários pela IA, o senhor acha que a profissão de dev vai ser prejudicada por essa nova tecnologia? ou apenas servirá como mais uma ferramenta para auxiliar na construção de 
+soluções digitais? As ferramentas de IA auxiliam no desenvolvimento, na geração de dados, mas não exatamente, na construção de uma solução completa e complexa, pois para isso, sempre 
+se faz necessário o profissional de TI par analisar e filtrar requisitos, realizar os testes e verificar se todos os requisitos estão contemplados no Sistema. Logo, é complicado e 
+riscado para uma Empresa realizar essa substituição. Vou te enviar a resposta do Professor Edson sobre a questão do chat GPT só para teres uma resposta mais completa, acerca das 
+tuas dúvidas: Eu entendo o chat GPT como uma ferramenta muito poderosa que pode contribuir sobremaneira no desenvolvimento de várias áreas do conhecimento. A TI certamente será uma das 
+áreas fortemente impactada por essa ferramenta. Porém, é ingênuo pensar que ela substituirá planejamento o ser humano. Dadas as devidas proporções, a disponibilização do chatGPT é tão 
+impactante para a sociedade quanto foi a dos buscadores de internet, como no caso do Google. Tenha certeza que o mesmo questionamento sobre o prejuízo/impacto nas diferentes áreas de 
+atuação foi feito sobre o uso do Google quando este foi lançado. A pergunta é: este impacto foi positivo ou negativo? Podemos dizer que podemos encontrar tanto vantagens quanto desvantagens, 
+mas dada sua unipresença, acho que podemos julgar que o resultado é mais positivo do que negativo, certo? Dito isto, digo que o problema não é a ferramenta (chat GPT no caso), mas sim o seu uso. 
+Considerando que todos façamos uso da ferramenta, qual será o resultado? O mau profissional fará mau uso da ferramenta. O bom profissional fará bom uso da ferramenta. Quando diferencio mau 
+e bom profissional, não estou nem considerando questões éticas, mas sim competência. Quem tem competência saberá como tirar o melhor proveito da ferramenta. O bom profissional sabe onde quer 
+chegar e sabe ser crítico. Assim, aquele bom profissional que se apoiar neste tipo de ferramenta saberá fazer os questionamentos adequados. Mas além disto, o bom profissional não se contentará 
+com a resposta que lhe for dada, mas sim a utilizará como base, de forma crítica, a fim de encontrar o bom caminho para a solução a ser entregue. Veja bem, o que estou descrevendo aqui não foge 
+das relações profissionais que ocorrem em equipes de desenvolvimento atualmente. Constantemente indagamos colegas de trabalho sobre dúvidas que tenhamos e recebemos respostas. O bom profissional 
+saberá como tirar o melhor proveito deste tipo de relação. O mau profissional, este fará um uso raso da ferramenta. Quando desafios maiores o encontrarem e as perguntas corretas não puderem ser 
+feitas, aí então qualquer solução será entregue. Não lhe soa como o espectro de profissionais que temos hoje em dia (bons e maus)? Entendo seu questionamento e a preocupação que tal ferramenta 
+causa. Mas lembre-se que somos humanos e como tal sempre nos adequamos. Assim ocorreu na revolução industrial, quando atividades manuais foram substituídas por máquinas, o que exigiu a readequação 
+de várias pessoas. Mas lhe afirmo que no mundo em que vivemos, desenvolvedores de solução na área de TI são tão vitais quanto a energia que precisa ser gerada para manter tudo funcionando. Sendo 
+assim, não vejo prejuízo para a área de TI, mas sim a certeza da necessidade de um constante acompanhamento do mundo para mantermo-nos atualizados e atuantes. Mas a atualização é comum em 
+qualquer área de trabalho e é ela que nos torna profissionais bons e insubstituíveis. Espero ter respondido a sua pergunta. Eu entendo o chat GPT como uma ferramenta muito poderosa que pode 
+contribuir sobremaneira no desenvolvimento de várias áreas do conhecimento. A TI certamente será uma das áreas fortemente impactada por essa ferramenta. Porém, é ingênuo pensar que ela 
+ocupará planejamento o ser humano. Dadas as devidas proporções, a disponibilização do chat GPT é tão impactante para a sociedade quanto foi a dos buscadores de internet, como no caso do Google. 
+Tenha certeza que o mesmo questionamento sobre o prejuízo/impacto foi feito sobre o uso do Google nas diferentes áreas quando este foi lançado. O problema não é a ferramenta, mas sim o seu uso. 
+O mau profissional fará mau uso da ferramenta. O bom profissional fará bom uso da ferramenta. Quando diferencio mau e bom profissional, não estou nem considerando questões éticas, mas sim competência. 
+Quem tem competência saberá como tirar o melhor proveito da ferramenta. O bom profissional sabe onde quer chegar e sabe ser crítico. Assim, aquele bom profissional que se apoiar neste tipo de 
+ferramenta saberá fazer os questionamentos adequados. Mas além disto, o bom profissional não se contentará com a resposta que lhe for dada, mas sim a utilizará como base, de forma crítica, 
+a fim de encontrar o bom caminho para a solução a ser entregue. Veja bem, o que estou descrevendo aqui não foge das relações profissionais que ocorrem em equipes de desenvolvimento atualmente. 
+Inclusive as perguntas e respostas são continuamente merecedoras de críticas para terem valor na construção de uma solução. 
+
+Pergunta 35 - Na aula é informado que podemos ter acesso à biblioteca, porém quando tento acessar o site ele pede um usuário e uma senha a qual não possuo. Como faço pra poder acessar 
+e baixar o material citado na aula? Em anexo a tela onde solicita os dados de entrada que não possuo.
+
+Resposta 35 - Sobre a biblioteca, você pode entrar em contato em dias úteis, de segunda a sexta-feira, das 9h às 17h pelo número (51) 98348-0161.
+Ou pelos e-mails:
+- Setor de Serviços: biblioteca.servicos@pucrs.br
+- Setor de Suporte: biblioteca.suporte@pucrs.br
+- Administração: biblioteca.central@pucrs.br
+
+Pergunta 36 - Não há mais provas no final das aulas?
+
+Resposta 36 - Como se trata de uma disciplina para esclarecer assuntos relacionados ao TCC, além de ser uma disciplina introdutória ao Curso, esta não tem teste Online.
+
+Comentário 4 - Atendimento PUCRS: Olá turma!
+Separamos algumas informações que podem auxiliar vocês na PROVA FINAL:
+A prova final é realizada pela plataforma, após a conclusão das disciplinas, abrangendo resumidamente todo o conteúdo do curso. A prova é integradora, ou seja, focada em conclusões 
+gerais e essenciais.
+DATA: O período para realização da prova final está disponível em seu cronograma. Vocês terão o total de seis meses para realização e não é necessário agendamento prévio.
+Confiram aqui as datas no cronograma do curso: https://salavirtual.pucrs.br/curso/desenvolvimento-full-stack-8/cronograma
+FORMATO: A prova tem o mesmo número de questões dos testes das disciplinas e as mesmas cinco tentativas para atingir a nota mínima (que é seis). As tentativas também 
+podem ser usadas para atingir uma nota maior. 
+RECONHECIMENTO FACIAL: Será utilizada a ferramenta de reconhecimento facial por meio de webcam durante a prova, sigam o passo a passo na aba "Testar Webcam", 
+localizada na parte superior da tela do curso. Lembrem-se de configurar essa funcionalidade com antecedência. Será necessário fazer o upload de um documento de identificação - 
+é assim que nosso sistema reconhecerá que vocês fizeram a prova, comparando a foto com as imagens captadas. 
+Atenção! O funcionamento do reconhecimento facial é obrigatório para validar a realização da prova.
+MATERIAL DE ESTUDO: Disponibilizamos um conteúdo de revisão de todas as disciplinas do curso para facilitar o estudo, acessem diretamente pelo menu em "Material de Revisão 
+para a Prova Final". O material de revisão poderá ser usado para consulta durante a prova. Pedimos apenas que façam o download do PDF e o acessem usando o computador.
+Após a conclusão da prova, pode levar até 24 horas para a nota aparecer na seção de avaliações.
+Qualquer dúvida, ficamos à disposição por aqui. Lembrem-se de comentar utilizando a #ParaEquipePUCRS
+
+Resposta 4 - Para auxiliar, vocês também podem usar a #Ajuda_Prof  para retirar demais dúvidas. 
+
+Pergunta 37 - Gostaria de tirar uma dúvida sobre as datas para entrega do Trabalho final/Memorial. Eu preciso de confirmar qual o prazo máximo para entrega pois a ultima disciplina está prevista 
+para início em Novembro e Ainda não apareceu a disciplina de TCC. Eu tenho que confirmar a finalização da pós graduação junto à minha empresa e inicialmente o prazo previsto era Dezembro de 2023, 
+mas pelo fato de ainda não estar com a Disciplina de TCC liberada, acredito que ela poderá se estender. Assim, preciso de um retorno oficial (por email, por exemplo) 
+para poder enviar à minha empresa qual a data prevista de término do curso. No caso seria a data máxima limite para entrega do Trabalho Final/Memorial. 
+
+Resposta 37 - Após terminar a última disciplina abre a de TCC. Terás 6 meses (o tempo máximo prorrogável para o término da pós. É automático, se precisares de mais tempo, 
+não precisas te preocupar em solicitar). Se enviares teu e-mail, posso te encaminhar esta resposta, para enviares a Empresa que trabalhas. 
+
+Pergunta 38 - Esse desafios de cada disciplina, onde eles estão, pois após o termino de cada uma eu não os localizei, outra dúvida, eu devo escolher entre o memorial ou o 
+esenvolvimento da aplicação? Ou devo fazer obrigatóriamente os dois?
+
+Resposta 38 - As atividades estão no livro da disciplina, que tu baixa na sala de aula virtual, No link: https://github.com/empucrs/DesenvolvimentoFullStack há um desafio 
+sobre herança e vários outros materiais. É interessante que dê uma boa olhada. Tu deves escolher entre Memorial ou Solução. Os templates estão em Orientação de TCC ou em material 
+complementar, na sala de aula virtual. 
+
+Comentário 5 - Será que tem algum grupo de whatsapp para quem esta fazendo este curso?
+
+Resposta 5 - Tu podes criar um grupo para tua turma no WhatsApp. Tua turma é a de Fevereiro de 2024. 
+
+Pergunta 39 - Onde podemos encontar os templates de arquivos?
+
+Resposta 39 - Entra em Orientação de TCC --> Guia do orientando --> Vais encontrar os dois templates para Desenvolvimento de Solução e Memorial.
+
+Pergunta 40 - Estou com uma dúvida quanto ao cronograma. Há um intervalo entre uma disciplina e outra prevista no cronograma, para liberar algumas aulas, entretanto, 
+as primeiras aulas de todos os cursos já está liberada.O recomendado é seguir o cronograma normalmente, sem antecipar alguma aula?Por exemplo, 
+digamos que terminei de assistir a aula disponível de Fundamentos de Computação e Algoritmos. Devo esperar as próximas aulas serem liberadas para prosseguir ou 
+poderia/deveria ir para a primeira aula da próxima disciplina? Acho muito importante dar tempo para mastigar os conteúdos!! Não tenho a intençaõ de "rushar" os cursos, 
+apenas estou em dúvida quanto à organização/tempo, acredito que os colegas tem a mesma dúvida.
+
+Resposta 40 - O indicado é seguir o fluxo normal das aulas a serem liberadas, segundo a ordem das disciplinas.
+
+
+

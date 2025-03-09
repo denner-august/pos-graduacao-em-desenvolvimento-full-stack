@@ -1,0 +1,510 @@
+## Comentários e Perguntas:
+
+Orinetação 1 - Separamos algumas informações que podem auxiliar vocês no TCC:
+A disciplina "Projeto em desenvolvimento de aplicação WEB - Parte 1" está disponível e traz informações sobre o desenvolvimento e os modelos de trabalho que deverão ser elaborados. 
+GUIA DO ORIENTANDO: acessem o guia do orientando pelo menu, em "Orientação de TCC". Nele, você encontra o passo a passo para a realização do trabalho, além de informações que irão te ajudar 
+na elaboração do TCC. 
+ORIENTAÇÃO ONLINE: a primeira etapa é enviar a versão inicial do TCC, feita ainda de forma individual (sem orientação), com todos os campos do template preenchidos. A partir desse 
+primeiro envio, um professor ou professora PUCRS será designado conforme o tema do trabalho, dando início ao processo de orientação, que acontece na Sala Virtual, na aba Orientação, 
+que ficará disponível na parte superior da tela após o envio da primeira versão. 
+TEMPLATE: Lembrem-se que o template é obrigatório e vocês precisam escolher somente um dos modelos disponíveis. Para auxiliar no desenvolvimento e compreensão dos itens propostos 
+no TCC, foram disponibilizados dois modelos preenchidos dos templates. Eles podem ser acessados no ícone A4 da parte 2 da disciplina de Projeto. 
+ENVIO DA VERSÃO INICIAL: para enviar a primeira versão, vocês podem ir na aba Depósito de TCC, selecionar um dos temas disponíveis e anexar o arquivo. O prazo para o primeiro 
+retorno do orientador é de até 15 dias, mas o tempo de resposta pode ser menor. Após concluir o processo de orientação e finalizar o trabalho, vocês deverão submeter a versão final 
+para avaliação do orientador e do parecerista. O prazo para divulgação da nota é de 20 dias. 
+PRAZOS: vocês terão o total de seis meses para o desenvolvimento e conclusão do trabalho. Serão três meses de prazo regular, mais três meses de prazo extraordinário - usufruir 
+desse prazo extraordinário não implicará em cobrança extra ou diminuição da nota.
+Fiquem de olho no cronograma do curso: https://salavirtual.pucrs.br/curso/desenvolvimento-full-stack-1/cronograma. Qualquer dúvida, ficamos à disposição por aqui. Lembrem-se de 
+comentar utilizando a #ParaEquipePUCRS.
+
+Comentário 1 - Devo seguir somente as opões sugeridas em "TEMA do SEU TCC"? Ou seja não posso desenvolver uma aplicação totalmente diferente das opões que constam para seleção?
+Cadê a opção MEMORIAL? 
+
+Resposta 1 - O tema selecionado não precisa ser 100% fiel ao trabalho, e sim uma aproximação. A escolha do tema é importante para que possamos definir um orientador ou orientadora que 
+tenha familiaridade com o assunto. 
+
+Comentário 2 - Entendo, porém acredito ser necessário incluir uma opção chamado Memorial, pois todas as opções listadas estão voltadas para o desenvolvimento de uma nova aplicação.  
+Acredito que nenhuma delas se aproxima de um memorial. Poderia indicar qual das opções selecionamos para enviar o memorial? Também pensei em desenvolver uma aplicação, porém essa aplicação 
+não se enquadra e nem se aproxima de nenhuma das opções listadas, como devo proceder nesse caso? 
+
+Resposta 2 - É importante vocês reverem a primeira parte de da disciplina de  Desenvolvimento Web - Parte 1. Para terem uma noção mais abrangente do que será necessário fazer para o TCC.
+
+Pergunta 1 - Estou questionando quanto as opções listadas  no campo "Tema Do seu TCC" para realizar o envio do arquivo inicial. 
+Temos as seguintes opções listadas abaixo:1 - Ambiental: Criar um solução...2 - Animal: A Construção de uma solução ...3 - Comunidade: Criar uma solução...4 - 
+Educativo: Desenv, de uma solução...5 - Financeiro: Elaboração de uma plataforma...6 - Inovação: Elaboração de uma plataforma...7 - Segurança: Elaborar um sistema...8 - 
+Social: Desenvolvimento de uma solução...9 - Transporte: Elaborar uma solução...10- Utilitário: Criar um sistema...Em qual dessas opções que devo selecionar para enviar o 
+arquivo no formato de MEMORIAL, sendo que todas apontam para DESENVOLVIMENTO DE ALGO.?E se minha aplicação não contemplar nenhuma dessas 10 opções, onde que eu posto? Ou obrigatoriamente 
+devemos desenvolver algo que esteja dentro de uma das 10 opções listadas?  E não é permitido desenvolver nada fora disso? Se for assim, onde se enquadra o memoria que é apresentado desde a 
+matéria Desenvolvimento Web - Parte 1 e Desenvolvimento Web Parte 2?
+
+Resposta 1 - O memorial é diferenciado, pois nele tu vais escrever sobre as ferramentas que tu vais gostou de utilizar no curso, vai criar um projeto simples com essas ferramentas e falar 
+comentar o que tu considerou satisfatório no teu processo de ensino aprendizado. Lembra que temos os templates de projetos para o TCC, que na verdade são templates de apoio, para orientar 
+como escrevê-los, por isso da importância de rever a disciplina de Desenvolvimento Web - parte 1. Feito isso, tu vai postar teu projeto no mesmo local do projeto de TCC para desenvolvimento 
+de soluções. Os orientadores verão tua proposta e terás um orientador para te auxiliar nesta na elaboração do teu TCC. No memorial, como tu escolhe as ferramentas, que vais tratar nele, as 
+opções podem ser ignoradas, visto que farás um memorial. 
+
+Pergunta 2 - Estou para começar a fazer o TCC e queria ver se é possível fazer a app web desenvolvida com Flutter e o backend com nestjs.
+
+Resposta 2 - Pode sim. Lembra de baixar o template do Projeto de TCC e ver, novamente a aula de Desenvolvimento Web - Parte 1. O template é um material de apoio para a escrita do projeto. 
+
+Pergunta 3 -  Enviei uma versão inicial do TCC, onde será possível ver o retorno do orientador ? Aqui no portal mesmo, ou é por e-mail? 
+
+Resposta 3 - Pelo chat, que se encontra na disciplina Orientação de TCC. 
+
+Comentário 3 - Não estou conseguindo acessar o link para baixar o template inicial: " assets-pucrs-priv.pucrs.br/courses/curso_secao/20s5kF0mothgp1GXvX4Ptemplate-para-tcc-fullstack-
+memorial.docx?Expires=1691515605&Signature=RIVk35bvNR39AMH4uz64BGCKYmmqDkYPb7qoNJH55wQimHmKigW6ddw8-VQAL9n4M5565UeSCmK7vxA9n9HkijAz5myga9Ft5v3dnaLMvj-wFfhJQaChUyx4sU5Y4FdeuHHzJeYKkdPG3pGrA78n
+DGtXjGpYmwboMA7Bo4h9PIoUT~7O-5u33IXCQHNPbxte-4dTVzU-PxnT2S8WXnL-wym6bs4yQwCjecL1Efs9xay8~tUq04Vi9dCClcwLp~EMPPfIJzHuB6ep81ylJmNfm5DuGdNTERN7AQFuGtcPR6-cQwehE9ARCXnE3eVMllOYnfSoUqAvT8TZcPHS3
+ELP0A__&Key-Pair-Id=KRXNHALY2MG34 ". E o outro: " assets-pucrs-priv.pucrs.br/courses/curso_secao/cWQxvMloIAQO2ulzhybstemplate-para-tcc-fullstack-projeto-prtico.docx?Expires=1691515695&Signature=
+TIiqMf1dCm05MT3sC7WAHgNpSemxj0ZfqUel2hoANZRXQ7lsgz3o-NMveXloIZoSOyYDPjtqjKNrpU2X4bjqVpp-bCeszK1GtcQliOKglrE3G87rKh4XH3HAR3jsh2EGw65sVRpC4dhFZjezlvxmawiA6f4D5ADcu~ZbnP5c2AAmNI6Nd5lBbVjoJvL
+WQTCXJSB1CbFxwl7GN4u6Cb0f62ZS7GxR~iTOLf50Q-AYeU-MIxswDPKm8Lta7rdEpXezDQCFNxnQLTzDVyoz6Fv7fkE8fZGDMItwg3JhwVxLuIi4aN5H6QUItSTaIS2HciMI7UatHjCSniyc5BQ8pXh5ow__&Key-Pair-Id=KRXNHALY2MG34 ". 
+
+Resposta 3 - Envio, via Matrix, do material de apoio para o TCC - Memorial.
+
+Pergunta 4 - Sou aluno do Dev FullStack e já vinha algum tempo trocando ideias com o professor Edson sobre minha proposta de TCC. Sou funcionário da PROCERGS/RS e minha pós é 
+subsidiada pela empresa. Nessa modalidade meu trabalho deve trazer alguma relação com o meu trabalho na empresa. Sou responsável nacional pela autorização de documentos fiscais 
+eletronicos do país, nossa arquitetura de aplicação, basicamente o backend, é de 2006. O meu TCC não está totalmente relacionado com interface para usuário, mas com melhoria e 
+evolução da arquitetura através dos aprendizados e novas técnicas que tive acesso ao decorrer do curso.
+O professor Edson já tinha validado minha ideia por email, porém ao verificar as opções de tema para o TCC não identifiquei nenhuma opção que esteja parecida com o que 
+estou propondo. A questão maior que a implementação toda já foi feita, falta apenas a documentação do projeto e do TCC mesmo, então venho solicitar uma ajuda para uma indicação 
+de qual opção de tema posso selecionar para a minha proposta que seria: "Evolução e Desacoplamento dos Serviços de Autorização de Documentos Fiscais Eletrônicos para a SEFAZ".
+
+Resposta 4 - Como o professor já validou tua proposta coloca como tema Inovação. 
+
+Comentário 4 - Separamos algumas informações que podem auxiliar vocês no TCC: 
+A disciplina "Projeto em desenvolvimento de aplicação WEB - Parte 1" está disponível e traz informações sobre o desenvolvimento e os modelos de trabalho que deverão ser elaborados. 
+GUIA DO ORIENTANDO: acessem o guia do orientando pelo menu, em "Orientação de TCC". Nele, você encontra o passo a passo para a realização do trabalho, além de informações que irão 
+te ajudar na elaboração do TCC. 
+ORIENTAÇÃO ONLINE: a primeira etapa é enviar a versão inicial do TCC, feita ainda de forma individual (sem orientação), com todos os campos do template preenchidos. 
+A partir desse primeiro envio, um professor ou professora PUCRS será designado conforme o tema do trabalho, dando início ao processo de orientação, que acontece na Sala Virtual, 
+na aba Orientação, que ficará disponível na parte superior da tela após o envio da primeira versão. 
+TEMPLATE: Lembrem-se que o template é obrigatório e vocês precisam escolher somente um dos modelos disponíveis. Para auxiliar no desenvolvimento e compreensão dos itens propostos 
+no TCC, foram disponibilizados dois modelos preenchidos dos templates. Eles podem ser acessados no ícone A4 da parte 2 da disciplina de Projeto.
+ENVIO DA VERSÃO INICIAL: para enviar a primeira versão, vocês podem ir na aba Depósito de TCC, selecionar um dos temas disponíveis e anexar o arquivo. 
+O prazo para o primeiro retorno do orientador é de até 15 dias, mas o tempo de resposta pode ser menor. Após concluir o processo de orientação e finalizar o trabalho, vocês 
+deverão submeter a versão final para avaliação do orientador e do parecerista. O prazo para divulgação da nota é de 20 dias.
+PRAZOS: vocês terão o total de seis meses para o desenvolvimento e conclusão do trabalho. Serão três meses de prazo regular, mais três meses de prazo 
+extraordinário - usufruir desse prazo extraordinário não implicará em cobrança extra ou diminuição da nota.
+Fiquem de olho no cronograma do curso: https://salavirtual.pucrs.br/curso/desenvolvimento-full-stack-6/cronograma
+Qualquer dúvida, ficamos à disposição por aqui. Lembrem-se de comentar utilizando a #ParaEquipePUCRS.
+
+Resposta 4 - Qualquer dúvida perguntar com a #Ajuda_Prof aqui na plataforma.
+
+Pergunta 5 - O TCC é individual ou em grupo?
+
+Resposta 5 - O TCC é individual. 
+
+Pergunta 6 - Minha dúvida é relacionada ao tema. Eu escolhi algo que se encaixa no item Social. Eu realmente preciso preencher a parte de Apelo Mercadológico? Estou desenvolvendo 
+um projeto sem fins lucrativos.
+
+Resposta 6 - Sim, todos os campos devem ser preenchidos. 
+
+Comentário 5 - Olá turma!
+Separamos algumas informações que podem auxiliar vocês no TCC:
+A disciplina "Projeto em desenvolvimento de aplicação WEB - Parte 1" está disponível e traz informações sobre o desenvolvimento e os modelos de trabalho que deverão ser elaborados.
+GUIA DO ORIENTANDO: acessem o guia do orientando pelo menu, em "Orientação de TCC". Nele, você encontra o passo a passo para a realização do trabalho, além de informações que irão te 
+ajudar na elaboração do TCC. ORIENTAÇÃO ONLINE: a primeira etapa é enviar a versão inicial do TCC, feita ainda de forma individual (sem orientação), com todos os campos 
+do template preenchidos. A partir desse primeiro envio, um professor ou professora PUCRS será designado conforme o tema do trabalho, dando início ao processo de orientação, 
+que acontece na Sala Virtual, na aba Orientação, que ficará disponível na parte superior da tela após o envio da primeira versão. TEMPLATE: Lembrem-se que o template é 
+obrigatório e vocês precisam escolher somente um dos modelos disponíveis. Para auxiliar no desenvolvimento e compreensão dos itens propostos no TCC, foram disponibilizados 
+dois modelos preenchidos dos templates. Eles podem ser acessados no ícone A4 da parte 2 da disciplina de Projeto.
+ENVIO DA VERSÃO INICIAL: para enviar a primeira versão, vocês podem ir na aba Depósito de TCC, selecionar um dos temas disponíveis e anexar o arquivo. 
+O prazo para o primeiro retorno do orientador é de até 15 dias, mas o tempo de resposta pode ser menor. Após concluir o processo de orientação e finalizar o trabalho, 
+vocês deverão submeter a versão final para avaliação do orientador e do parecerista. O prazo para divulgação da nota é de 20 dias.
+PRAZOS: vocês terão o total de seis meses para o desenvolvimento e conclusão do trabalho. Serão três meses de prazo regular, mais três meses de prazo 
+extraordinário - usufruir desse prazo extraordinário não implicará em cobrança extra ou diminuição da nota.
+Fiquem de olho no cronograma do curso: https://salavirtual.pucrs.br/curso/desenvolvimento-full-stack-4/cronograma
+Qualquer dúvida, ficamos à disposição por aqui. Lembrem-se de comentar utilizando a #ParaEquipePUCRS.
+
+Resposta 5 - É isso mesmo! Tens o material de apoio em PDF, mas é essencial que assista novamente a disciplina de Desenvolvimento WEB - parte 1. 
+
+Pergunta 7 - O TCC pode ser um arquivo pdf de pesquisa nos temas determinados acima ou precisa necessariamente ser um software que precisamos desenvolver?
+
+Resposta 7 - Na disciplina de Desenvolvimento WEB - parte 1, há o esclarecimento da tua dúvida, por isso é interessante rever. Tens duas opções: A elaboração de um memorial ou o 
+desenvolvimento de uma solução. Para auxiliá-los, temos os templates de apoio a escrita de cada um deles na sala de aula virtual, aquela onde tu assiste as aulas. 
+
+Pergunta 8 - Gostaria de compreender o processo e os tempos da orientação do TCC. A primeira versão do meu trabalho submeti no dia 15, meu orientador respondeu no dia 
+24 com algumas sugestões. No dia 27/08 submeti no chat da orientação a 2a versão com os pedidos do orientador, desde lá, estou aguardando retorno, mas sem resposta. Isso está correto?
+
+Resposta 8 - Existe um sistema de notificação que alerta sobre o tempo que um contato via chat aconteceu. Normalmente o tempo máximo para retorno é de 7 dias. 
+Mas por vezes este retorno ocorre em intervalo menor. O professor será contatado e caso o problema persista, não exite em nos comunicar.
+
+Pergunta 9 - Meu TCC foi avaliado. Como faço para obter o diploma? 
+
+Resposta 9 - Tu solicitas teu certificado na plataforma --> Aba Meu perfil --> Aba Certificado. O prazo de entrega é de até 90 dias.
+
+Pergunta 10 - Gostaria de entender melhor sobre a monografia e a criação de um sistema, em ambos os casos será preciso ter códigos e repositório (GitHub por exemplo)?
+Caso opte pela monografia, não consigo visualizar uma ligação entre a monografia e os tema a serem escohidos acima. Consegue me ajudar, estou com dúvida em qual caminho 
+escolher e preocupado com o prazo.
+
+RespostA 10 - Na opção de desenvolvimento da solução é necessário o código no GitHub sim. Se optares pelo memorial, conforme as aulas de Desenvolvimento Web - Parte 1 e o PDF de 
+auxílio, que está na sala de aula virtual, tu vais escrever teu memorial de acordo com o tema selecionado e o que tu achaste relevante nas aulas, dentro deste tema, ou seja, o que 
+tu mais gostou e prints de tela, Tu podes optar por algum dos temas e fazer o print dos teus exercícios ou de alguma solução teste que tenha vindo a desenvolver para estudar sobre 
+o código ou ferramenta sugerido na aula.
+
+Pertunta 11 - É possível alterar o tema do TCC após o envio do arquivo inicial? Estava analisando os requisitos do app e vejo que não será possível cumprir todos por conta do tempo.
+Falei com o orientador e ele me disse que não tem problema, mas que eu deveria consultar o coordenador do curso antes.
+
+Resposta 11 - Faz as alterações no teu TCC e envia novamente pelo Depósito de TCC para o teu orientador.
+
+Pergunta 12 - Escrevi o memorial e quero enviar para revisão, como faço?
+
+Resposta 12 - Tu já tens orientador? Se tiveres basta enviar pelo chat para teu orientador. Caso não tenhas orientador ainda, vai na Sala de Aula Virtual
+(onde fizestes as disciplinas) --> Clica em Orientação de TCC  --> Depósito de TCC e aguarda o retorno do professor orientador. 
+
+Pergunta 13 - No Depósito de TCC não tem opção de memorial, eu escolho qq tema e envio o memorial? É o meu primeiro envio. 
+
+Resposta 13 - Não tem problema. Envia por ali mesmo. Os professores verão que se trata de um memorial. 
+
+Pergunta 14 - Enviei um arquivo errado no arquivo inicial, é possivel libera para enviar o arquivo denovo?
+
+Resposta 14 - Encaminhe as versões atualizadas diretamente ao professor pelo chat de orientação, utilizando o ícone que se parece com um "clipe".
+
+Pergunta 15 - Fazem 3 semanas que submeti a versão final do meu trabalho, sabem me informar quanto tempo até a avaliação e a nota?
+
+Resposta 15 - Teu TCC passa por dois avaliadores, o orientador e outro professor parceiro. Normalmente o prazo é de 15 dias, como relataste que já fazem 3 semanas que submetestes 
+teu trabalho final, tua nota deve sair nos próximos dias. Após receber a nota, tu solicitas teu certificado na plataforma --> Aba Meu perfil --> Aba Certificado. O prazo de entrega é de até 90 dias.
+
+Pergunta 16 - Gostaria de verificar o prazo que devo esperar pela correção e nota do meu TCC, enviei o arquivo final no dia 25/09/2023 e não tive ainda o retorno da avaliação.
+
+Resposta 16 - Resposta Professor: Já tive retorno do orientador. Pelo q ele me disse, tu já enviaste a versão final, certo? Ele me passou que já encaminhou a nota, cabendo agora a 
+nota do parecerista para o fechamento desta etapa. Vou fazer contato com o pessoal da UOL para entender o que está acontecendo.
+
+Comentário 6 -  Atendimento PUCRS: Olá turma!
+Separamos algumas informações que podem auxiliar vocês na PROVA FINAL:
+A prova final é realizada pela plataforma, após a conclusão das disciplinas, abrangendo resumidamente todo o conteúdo do curso. A prova é integradora, ou seja, focada em conclusões 
+gerais e essenciais.
+DATA: O período para realização da prova final está disponível em seu cronograma. Vocês terão o total de seis meses para realização e não é necessário agendamento prévio.
+Confiram aqui as datas no cronograma do curso: https://salavirtual.pucrs.br/curso/desenvolvimento-full-stack-8/cronograma
+FORMATO: A prova tem o mesmo número de questões dos testes das disciplinas e as mesmas cinco tentativas para atingir a nota mínima (que é seis). As tentativas também 
+podem ser usadas para atingir uma nota maior. 
+RECONHECIMENTO FACIAL: Será utilizada a ferramenta de reconhecimento facial por meio de webcam durante a prova, sigam o passo a passo na aba "Testar Webcam", 
+localizada na parte superior da tela do curso. Lembrem-se de configurar essa funcionalidade com antecedência. Será necessário fazer o upload de um documento de identificação - 
+é assim que nosso sistema reconhecerá que vocês fizeram a prova, comparando a foto com as imagens captadas. 
+Atenção! O funcionamento do reconhecimento facial é obrigatório para validar a realização da prova.
+MATERIAL DE ESTUDO: Disponibilizamos um conteúdo de revisão de todas as disciplinas do curso para facilitar o estudo, acessem diretamente pelo menu em "Material de Revisão 
+para a Prova Final". O material de revisão poderá ser usado para consulta durante a prova. Pedimos apenas que façam o download do PDF e o acessem usando o computador.
+Após a conclusão da prova, pode levar até 24 horas para a nota aparecer na seção de avaliações.
+Qualquer dúvida, ficamos à disposição por aqui. Lembrem-se de comentar utilizando a #ParaEquipePUCRS
+
+Resposta 6 - Para auxiliar, vocês também podem usar a #Ajuda_Prof  para retirar demais dúvidas. 
+
+Pergunta 17 - Estou com uma duvida quanto ao titulo do meu TCC e como vou fazer ele. A duvida é a seguinte; Eu fiz o curso para aquisição de conhecimentos em Desenvolvimento 
+full stack para aplicar na empresa onde trabalho algumas tecnicas estudadas sendo assim não irei atuar diretamente com desenvolvimento mais na organização de processos dentro 
+da empresa. eu trabalho em uma Softhouse que desenvolve e matem um sistema para bares e restaurantes e eles não seguem processos então durante o curso eu consegui aplicar algumas 
+coisas aprendidas e organizar outros porcessos. Porém como falei apesar de ter desenvolvido 4 projetos de software na empresa eu não atuo como desenvolvedor e não realizei o curso 
+com está finalidade. Como posso fazer o TCC no modelo Memorial visando que fiz o curso com intuitos diferentes? só mesmo para compreender o Desenvolvimento Full Stack e aplicar o que
+fosse possivél no meu ambiente de trabalho.
+
+Resposta 17 - O modelo Memorial, tu não precisas, necessariamente selecionar o tema, e se escolheres selecionar, por o que entendi, usa a opção Financeiro. Tu podes fazer o Memorial, 
+selecionando as ferramentais que utilizastes na construção de uma dessas soluções. Assim tu vais falar sobre a ferramenta ou ferramentas e como ela impactou no teu trabalho. Ressalta que 
+temos os Templates de Apoio, mas é imprescindível assistir novamente a aula sobre Desenvolvimento de Aplicações WEB - Parte 1.
+
+Pergunta 18 - Como faço para utilizar o prazo extraordinário? Ainda não finalizei o meu projeto de TCC. Qual é o procedimento?
+
+Resposta 18 - O prazo extraordinário é automático. Ao todo são 6 meses para finalizar o TCC, passado esse prazo a UOL entra em contato contigo, no caso de não teres finalizado o TCC. 
+
+Pergunta 19 - Acabei de fazer o envio o memorial final porém enviei o arquivo errado. Poderiam por gentileza reabrir o envio?
+
+Resposta 19 - Tu podes reenviar teu memorial novamente pelo chat de orientação, utilizando o ícone que se parece com um "clipe".
+
+Pergunta 20 - Posso escolhe entre fazer o memorial ou a projeto prático? Se sim, mandei a versão errada, posso mandar a certa assim que um orientador me responder? 
+(No caso enviei o projeto pratico no lugar do memorial que já estava feito).
+
+Resposta 20 - Podes escolher sim! Pode enviar a versão correta ao Orientador sim! Tu podes reenviar teu memorial novamente pelo chat de orientação, utilizando o 
+ícone que se parece com um "clipe".
+
+Pergunta 21 - Tenho que enviar a versão final até dia 08/11/2023? Não entendi esse prazo.
+
+Resposta 21 - Na verdade esse é o prazo de três meses, mas como é automática a solicitação de mais 3 meses, pergunta para o teu orientador, pois ele que pode ter 
+estipulado esse prazo. Isso não quer dizer que não possas ter os 3 meses de prorrogação.
+
+Pergunta 22 - Eu ainda não tenho orientador, e a versão que mandei do tcc errada não foi atualizada pela que mandei na guia Orientação. Consegue me ajudar?
+
+Resposta 22 - Consigo sim. Tu seguiu os passos do Depósito de TCC, que está na sala Virtual da PUCRS? Quando tu envia o projeto, os professores verificam, e te chamam para a 
+Orientação. Isso ainda não acont4eceu contigo? De seres chamado para Orientação?
+
+Pergunta 23 - Como fico sabendo se o arquivo foi enviado ou não?
+
+Resposta 23 - Ao fazer o upload do arquivo, ele carrega e sobe para o orientador ou se ainda não tens orientador, para o depósito de TCC.  A partir daí 
+deves aguardar o retorno do orientador. 
+
+Resposta 23 - Conforme disponível em seu cronograma (https://salavirtual.pucrs.br/curso/desenvolvimento-full-stack-2/cronograma), você tem até 08/02/2024 para concluir 
+seu TCC e realizar o envio final. Lembramos ainda que o prazo para o primeiro retorno do orientador é de 15 dias, mas o tempo de resposta pode ser menor dependendo do professor.
+
+Pergunta 24 - elo que li no material, para conclusão do TCC não preciso desenvolver um sistema, bastando entregar o Memorial. Pode confirmar se é isso mesmo?
+
+Resposta 24 - É isso mesmo! Tens o material de apoio em PDF, mas é essencial que assista novamente a disciplina de Desenvolvimento WEB - parte 1. 
+
+Pergunta 25 - Boa tarde, primeiramente gostaria de dizer que estou gostando muito do curso. O conjunto de disciplinas foi muito bem elaborado e as aulas são muito boas.
+Por motivos pessoais e profissionais eu não venho conseguindo me dedicar muito até o momento, nada além de assistir as aulas e fazer as provas.
+Meu interesse é fazer o formato de memorial por ter bastante experiência na área, já trabalhei em várias empresas ao longo dos meus 18 anos de carreira na TI.
+Gostaria de iniciar a criação de meu portfólio à partir de agora, utilizando o prazo até Março de 2024, e caso necessário estender um pouco mais. Pelo que vi seria possível 
+estender mais 3 meses mediante pagamento de uma taxa, o que não seria um problema. Estaria ok para vocês fazer isso e, nesse caso, o que devo enviar no primeiro 
+depósito e qual a data limite para isso?
+
+Resposta 25 - Se precisares de prorrogação de prazo, este é automático, totalizando 6 meses para a entrega final do TCC. Se já fizestes todas as disciplinas, deve elaborar 
+seu TCC utilizando o material de apoio relativo ao memorial e assistindo a disciplina de Projeto de Desenvolvimento de Aplicações WEB - Parte 1. Feito isso, tu escreve teu 
+memorial usando o template de apoio , como foi mencionado. Clica em Orientação de TCC, que está na Sala de Aula Virtual --> Depósito de TCC (sendo memorial não há 
+necessidade se selecionar a área, mas se estiver dentro do teu planejamento  as opções, seleciona. Após feito isso deves aguardar um orientador entrar em contato contigo, 
+para ter a ajuda necessária para a conclusão do teu TCC. 
+
+Comentário 6 - Recebi uma mensagem do meu orientador o Professor Daniel Callegari dizendo  que o outro avaliador não vai receber o meu TCC e assim seria prejudicado. 
+Em mensagens anteriores eu pedi que fosse reaberto o envio para que pudesse enviar o arquivo correto para avaliação. Poderia por gentileza me ajudar nessa questão? 
+
+Resposta 6 - Como foi mencionado anteriormente, tu mesmo podes reenviar teu TCC - "Tu podes reenviar teu memorial novamente pelo chat de orientação, 
+utilizando o ícone que se parece com um "clipe"." O passo-a-passo é esse. Como tens o print da mensagem, vou encaminhar para a coordenação para 
+e possam nos ajudar nesta questão de "outro avaliador não vai receber o meu TCC e assim seria prejudicado.". Fica tranquilo, retorno com a resposta da coordenação.
+
+Pergunta 26 - Enviei o memorial já algum tempo e até o momento não saiu nota. 
+
+Resposta 26 -  O teu memorial deve estar com o orientador, depois passa para o avaliador, este tem até três dias para enviar a nota. Temos que aguardar. 
+Assim que sair a tua nota, vai no teu perfil, certificado e já solicita. O certifica leva 90 dias para ficar pronto.
+
+Pergunta 27 - Boa tarde, estou em processo de definição do tema para elaboração do TCC, portanto tenho algumas dúvidas que precisam ser sanadas:
+1. Se optar pela elaboração do TCC em formato de memorial, posso apresentar como apliquei os conteúdos adquiridos durante o curso no meu dia-a-dia profissional 
+ou estou restrito a projetos que elaborei voltados única e específicamente ao que foi proposto durante as aulas? 2. A data final do prazo extraordinário está correta? 
+Acredito que a data correta seria 20/04/2024. https://imgur.com/xMAElpz.
+
+Resposta 27 - 1. Se optar pela elaboração do TCC em formato de memorial, posso apresentar como apliquei os conteúdos adquiridos durante o curso no meu dia-a-dia profissional 
+ou estou restrito a projetos que elaborei voltados única e especificamente ao que foi proposto durante as aulas? Sim podes realizar desta forma.
+2. A data final do prazo extraordinário está correta? Acredito que a data correta seria 20/04/2024. https://imgur.com/xMAElpz. A data final também 
+está correta, visto que iniciastes o curso em Dezembro de 2022. 
+
+Resposta 27 - #Ajuda_Equipe UOL: Entraremos em contato com o aluno para realizar um novo envio.
+
+Pergunta 28 - Na aba de guia prático fala que na ultima disciplina estao as aulas com orientações do TCC,  eu nao encontrei, segunda dúvida, nós 
+devemos escolher um tema e elabora um trabalho escrito? Pois na primeira aula do curso se fala em desenvolver uma aplicação como TCC.
+
+Resposta 28 - Em Orientação de TCC não há aula, apensa material de suporte a dúvidas e Depósito de TCC. Por isso é sempre bom utilizar a #Ajuda_Prof para retirar 
+essas dúvidas. Sim, na primeira aula há a opção de memorial ou desenvolvimento de solução, ou um ou outro, certo?! Se tu optares por Memorial, temos o material de apoio, 
+que é um template para ajudar na escrita deste memorial, agora, se optares pelo desenvolvimento da solução, há também template de apoio para a escrita e a solução deve 
+ser desenvolvida. Todos esses materiais de apoio estão em Conteúdo --> Disciplina --> Material complementar ou Orientação de TCC --> Depósito de TCC, Na introdução, ao ler, 
+verás que tens os dois modelos de template para baixar, é só clicar no link.
+
+Comentário 7 - Até o momento eu não obtive um professor orientador, amanhã completa 15 dias. Poderia me ajudar?
+
+Resposta 7 - Para ciência, no caso do aluno, o trabalho está alocado para a orientação do Marcelo Cohen. O professor nos informou que estava com COVID e que estará 
+retornando as orientações até o final de semana. 
+
+Pergunta 29 - Gostaria de saber se tem algum lugar que encontro, de forma OBJETIVA, quais sãos os requisitos obrigatórios e opcionais para elaboração do projeto final, no meu 
+caso farei o desenvolvimento de uma "solução de problema". Vi os vídeos mas sinceramente não ficou nada claro pra mim. Por exemplo, preciso ficar dentro das 
+tecnologias e linguagens mostradas no curso? preciso utilizar algo de cada disciplina pra elaboração? A parte escrita tem que abordar o que?
+
+Resposta 29 - Lá em Orientação de TCC --> Guia Prático do Orientando --> Link para template de apoio, seja memorial ou desenvolvimento de solução, 
+tu baixa o templates que ela trás um modelo do que deve ser feito e escrito. O ideal é utilizar as tecnologias vistas no curso sim. Fica a teu critério 
+e principalmente do orientador, quais tecnologias utilizar, por isso vocês tem orientador. Como mencionada a parte escrita, é um template que aborda as etapas 
+da elaboração do texto, parte a parte, para te auxiliar na escrita.
+
+Pergunta 30 - Venho através deste e-mail sanar algum dúvida, pois fazem quase 3 semanas que realizei o envio do tcc para avaliação final e sigo sem um retorno. 
+Seria possível ver sobre esse item? 
+
+Resposta 30 - A avaliação, pelo orientador leva cerca de 15 dias para ser enviada ao professor avaliador. Este último também tem alguns dias para avaliar o TCC e 
+postar a nota final. Tua nota deve ser postada em breve.
+
+Comentário 8 - Gostaria de expressar minha preocupação em relação ao meu tcc pois o mesmo foi submetido para avaliação a mais de 15 dias e até o momento não obtive nenhuma espécie de retorno.
+Compreendo que o processo demanda tempo, no entanto agradeço se puder fornecer uma previsão para que eu possa me organizar adequadamente e, se necessário, efetuar eventuais 
+ajustes conforme considerações do orientador.
+
+Resposta 8 - O TCC passa pelo orientador que tem 2 semanas para dar a nota, após passa para o professor avaliador que tem 3 dias para dar a nota. Como estávamos de 
+recesso de Natal e Ano Novo, acredito que tua nota final pode sair esta semana.
+
+Pergunta 31 - Estou com dúvida sobre a seção 5 - Ciclo de Desenvolvimento da Solução, que tem as seguintes orientações: "Antes de iniciar o desenvolvimento de sua solução é importante 
+definir o ciclo de desenvolvimentos. Por quais etapas vais passar? Como serão separadas tais etapas? Como garantir que não haja conflito de versões? Como garantir que soluções em produção 
+não sejam afetadas por versões em desenvolvimento? Como serão feitas as validações das versões?". Que etapas do ciclo de desenvolvimento estão se referindo? Não ficou claro pra mim. 
+
+Resposta 31 - Toda a solução possuí um ciclo de desenvolvimento certo? Ao iniciar o desenvolvimento da tua solução, deves definir como será este ciclo de desenvolvimento. deves descrever 
+as etapas de desenvolvimento, a ordem das etapas, ou seja, primeira, segunda, etc. Quando uma etapa inicia e termina e quando a outra inicia e termina para passar para a próxima etapa. O próprio 
+Git faz o versionamento, por isso deves ter cuidado, pois como o Git versiona, deves ficar alerta para as versões em homologação e a que será colocada como produção e finalmente, estabelecer como 
+será realizada essas validações de versão, neste último caso, podes utilizar o Git para te auxiliar. Para ter um entendimento melhor desta seção, baixa o template de apoio, referente ao 
+desenvolvimento de soluções. Ele está bem claro. 
+
+Comentário 9 - Gostaria de um esclarecimento quanto a escolha do Tema para o TCC, na modalidade Memorial. Conforme o template, sessão 2 - Organização do Portfólio, assim como a Aula 01 - 
+Parte 2 (minutagem: a partir dos 7:11), de Projeto em Aplicação Web - Parte 1, entendo que a proposta do formato "Memorial" é apresentar o portfolio de projetos desenvolvidos ao longo do curso. 
+Ou seja, utilizar cada uma das partes práticas de cada matéria, para construir modelos, exercícios e testes, afim de colocar em prática os conhecimentos obtidos.
+Porém não existe uma opção dentre os Temas possíveis que represente essa opção de portfólio. Minha dúvida é se devo atender ao contexto da aula, e escrever o memorial com base 
+nas atividades de cada matéria, ou se devo aplicar esses conhecimentos em um dos temas pré-selecionados.
+
+Resposta 9 - No memorial tu não precisas escolher o tema, pode deixar sem. No memorial tu vais descrever as disciplinas e aulas que mais gostastes e inserir teus códigos desenvolvidos 
+para estudo. Podes incluir modelos, exercícios e testes que tu realizou no decorrer da disciplina. Como disse não há necessidade de escolher o tema, mas se achares pertinente 
+algumas das opções podes selecionar sim. O template de apoio está na disciplina Orientação de TCC --> Guia prático do Usuário. 
+
+Pergunta 32 - Ao revisar os comentários na sessão do TCC do curso, identifiquei seu e-mail como um possível ponto de contato para esclarecimentos e orientações. Se este não for o canal 
+apropriado, peço desculpas pela abordagem. Após o início do curso, consegui ingressar no mercado de trabalho na área, o que trouxe uma nova dinâmica à minha rotina. Infelizmente, 
+essa transição impactou meu planejamento em relação ao curso, especialmente no que diz respeito ao acompanhamento do TCC. Obtive aprovação nas matérias do curso e agora me encontro na última e
+tapa, restante apenas o TCC e a prova final. Diante disso, gostaria de buscar sua orientação sobre como proceder. Já elaborei uma ideia inicial para o tema do TCC, mas, dado o prazo 
+reduzido (08/02/2024), estou em busca de conselhos sobre o melhor caminho a seguir. Devo buscar concluir o TCC no prazo estabelecido pela plataforma? Se sim, ainda seria possível conseguir a 
+orientação de um professor a tempo hábil? Adicionalmente, gostaria de saber se há alguma possibilidade de estender o prazo final, considerando as circunstâncias atuais.
+
+Resposta 32 - Posso te ajudar sim e não é incomodo nenhum. Se precisares, por qualquer motivo me envia e-mail ou chama no Matrix. Vamos aos teus questionamentos:
+​** Já elaborei uma ideia inicial para o tema do TCC, mas, dado o prazo reduzido (08/02/2024), estou em busca de conselhos sobre o melhor caminho a seguir – Neste caso, tu podes 
+usar a ideia elaborada. Não te preocupes;
+​** Devo buscar concluir o TCC no prazo estabelecido pela plataforma? Tu tens 3 meses para elaborar o TCC e mais 3 meses de prorrogação automática. fica tranquilo, vai dar tempo;
+​** Se sim, ainda seria possível conseguir a orientação de um professor a tempo hábil? Dá tempo sim Willian, coloca a tua ideia dentro do template do que pretendes fazer 
+(se memorial ou solução) e envia pela sala de aula virtual --> Orientação de TCC --> Depósito de TCC. Um professor lerá teu projeto de TCC e vai te orientar;
+​** Adicionalmente, gostaria de saber se há alguma possibilidade de estender o prazo final, considerando as circunstâncias atuais --> Há sim, o prazo é prorrogável por mais três meses, 
+além do prazo mencionado na plataforma.
+
+Pergunta 33 - O prazo final do dia 25/01/2024 é para o primeiro envio ou para o arquivo final?
+
+Respsota 33 - Sim, és da primeira turma, logo teu prazo foi prorrogado por mais três meses, de forma automática. Teu prazo final é 25/01/2024. 
+
+Pergunta 34 - Ainda não entendi. O prazo final é para o primeiro envio ou para o envio final?
+
+Resposta 34 - Envio final.
+
+Pergunta 35 - Realizei o envio do meu TCC dia 09/01 e até então não recebi a devolutiva, qual seria o prazo? Sei que são 20  para envio da nota, porém o prazo extraordinário 
+para a entrega do TCC é dia 25/01. Estou preocupada.
+
+Resposta 35 - São 15 dias para avaliação do orientador e 3 dias para a nota do professor avaliador. Tua nota deve estar saindo. Assim que sair, já vai no teu perfil e solicita teu certificado. 
+Leva 90 dias para entregarem.
+
+Comentário 10 - Estou enviando esse e-mail pra pedir um auxílio. Enviei minha versão do memorial dia 10/01/2024 e até agora não recebi nenhum retorno. Tem várias pessoas que enviaram depois 
+de mim e já receberam a nota e retorno. Estou preocupado com o prazo. E voce, mais do que ninguém, sabe o que passamos no curso e a entrega em cima da hora foi por falta de condições realmente. 
+Se puder me auxiliar, agradeço. 
+
+Resposta 10 - O professor orientador leva 15 dias para dar sua nota, depois passa para o professor avaliador que tem 3 dias para dar a nota. Assim, como enviaste dia 10/01/2024 está 
+no prazo Carlos. Assim que sair tua nota, vai no teu Perfil --> Certificados --> e Já solicita o teu verificado de pós-graduação. Fica pronto em 90 dias. 
+
+Comentário 11 - Envei meu TCC dia 03.01.2024 e nao tive nenhuma resposta de orientador, estou ficando preocupado com o prazo e segundo a PUC a resposta era 
+no máximo em 15 dias, tempo esse ja passado. Fico no aguardo de uma orientação.
+
+Resposta 11 -  O professor orientador tem 15 dias para dar a nota e o professor avaliador 3. Tua nota deve estar saindo. Assim que sair, vai no 
+Teu Perfil --> Certificados e Já pede o teu certificado de pós. Fica pronto em 90 dias. 
+
+Pergunta 36 - Eu entendo o prazo, mas nesse momento que está todo mundo com a corda no pescoço, o coordenador vai levar justamente 15 dias pra verificar? Olha, estou sendo 
+muito sincero com vocês, desde o começo. Eu não tinha nenhuma condição de fazer o memorial, insisti pq minha índole falou mais alto em nao entrar com uma ação contra a PUC. 
+Mas está difícil. Volto a frisar, no grupo nosso do whats existem inúmeras pessoas extremamente insatisfeitas. 
+
+Resposta 36 - Tu já enviaste a versão final do memorial dentro do prazo. Agora é só aguardar a nota sem prejuízo de prazo nenhum para o aluno.
+
+Pergunta 37 - Realizei o Envio do TCC no dia 09/01 e ainda não tive o retorno do professor quanto ao trabalho. Gostaria de saber como proceder pois a data final é dia 25/01. 
+Ja devo entrar em contato é paga para prorrogar? ou devo aguardar o retorno do professor?
+
+Resposta 37 - Como já enviaste a versão final do memorial, o professor orientador tem 15 dias para dar sua nota e o professor avaliador três dias. Fica tranquilo! 
+Assim que sair tua nota, vai no teu Perfil --> Certificados e já solicita teu certificado de pós graduação. Levam 90 dias para ficar pronto.
+
+Comentário 12 - Errata: enviei foi um memorial.
+
+Resposta 12 - Não há cobrança de nada. Fica tranquilo. A prorrogação, se necessária é automática, vocês tem 3 meses mais três meses para entregar o TCC, sem prejuízo 
+financeiro ao aluno. Agora é só aguardar a nota final do professor e avaliador.
+
+Comentário 13 - Estou realmente preocupado. Eh a versão inicial que enviei e até agora ninguém corrigiu. 
+
+Resposta 13 - O professor orientador fez contato com o aluno para analisar o TCC e dar maiores orientações quanto ao memorial escrito.
+
+Comentário 14 - Preciso de ajuda para realização do TCC no estilo memorial, eu fiz a pós somente para obter conhecimentos full stack para buscar melhorias em 
+processos na empresa onde trabalho. e não sei como fazer o TCC em formato memorial para este tema em especifico. Hoje fiz o deposito do template memorial somente com meus 
+dados e o titulo. Agora preciso saber como prosseguir e adequar estas questões.
+
+Resposta 14 - Primeiramente assiste novamente a disciplina de Projeto em Desenvolvimento de Aplicações WEB - Parte 1. Essa disciplina é bem esclarecedora. Agora que já tens o 
+template baixado, segue conforme o template, se observares, em todas as seções deste, há uma descrição do que deve ser escrito e como. Ao enviar o template no Deposito de TCC, 
+não há necessidade de selecionar o tema. No memorial tu poderás tratar das disciplinas que mais fizeram sentido para ti, de que forma fizeram sentido, incluir códigos desenvolvidos, 
+etc. Podes usar também meajuda.pucrsonline@uolinc.com. 
+
+Comentário 15 - Gostaria de postergar o meu prazo de conclusão do curso de desenvolvimento full stack. Infelizmente, por conta da alta demanda no trabalho, problemas pessoais e alta 
+decepção com o curso, não consegui seguir conforme o programado. Não sei se tem acompanhado todo o histórico desse curso, mas os alunos ficaram muito descontentes com a qualidade, 
+tentamos contato de todas as formas para mudarmos o cenário, porém não obtivemos sucesso. Visto isso, seria possível flexibilizar essa extensão e também os valores?
+
+Resposta 15 - Envia por gentileza, e-mail para meajuda.pucrsonline@uolinc.com, lá eles vão te orientar quanto a prazos (não sei de qual turma tu és) e sobre essa possível flexibilização financeira.
+
+Comentário 16 - Estou em dúvida de como selecionar o Tema do TCC. Pretendo fazer o Memorial e me parece que os temas disponíveis são relacionados a desenvolvimento de Projeto Prático.
+
+Resposta 16 - Sim, tens razão. Já que vais fazer Memorial não seleciona nem tema e envia para que o professor orientador entre em contato contigo, via chat, na Disciplina de 
+Orientação de TCC. 
+
+Comentário 17 - Baixei o template para criação do TCC e iniciei seguindo os passos que estão ali descritos, minha dúvida lá são listados 10 tópicos e explicados cada um 
+deles, estou no 3º, devo finalizar todos os 10 tópicos para enviar a versão inicial para a ajuda do professor, ou já posso enviar visto que a minha proposta de desenvolvimento 
+já ficou clara? Pergunto porque necessito de ajuda, estou com algumas dificuldade em relação dos locais que devo colocar determinadas informações. 
+
+Resposta 17 - O ideal é enviar o tamplete completo para enviar a versão inicial. 
+
+Comentário 18 - Estou entrando em contato para solicitar um retorno referente ao TCC que enviei em 23/01/2024. Até o momento, não obtive nenhum feedback sobre o documento e 
+gostaria de saber se houve a oportunidade de revisão. Por gentileza, poderia me informar sobre o status atual do processo de avaliação do meu trabalho e quando posso 
+esperar por um retorno?
+
+Resposta 18 - O teu TCC está com teu orientador. Estou colocando nosso Coordenador de Curso em cópia para nos auxiliar quanto a resposta do Orientador. 
+Assim, que possível te envio retorno ou o orientador entra em contato contigo via chat. 
+
+Resposta Equipe UOL 18 - Estamos com algumas instabilidades no chat e em alguns casos a mensagem automática inicial, informando que o trabalho foi recebido, não está sendo 
+enviada. O aluno ainda não recebeu retorno do orientador, mas está no prazo, pois enviou há 14 dias. De qualquer forma estamos monitorando para não haver atraso por parte do professor, 
+orientador do aluno.
+
+Pergunta 38 - É necessário solicitar prazo extraordinário ou é automático?
+
+Resposta 38 - Fique tranquilo, não é necessário fazer a solicitação do prazo extraordinário. Utilizar ele não implicará em cobrança extra ou diminuição da nota.  
+
+Pergunta 39 - Tenho um prazo para envio dessa 1° versão do TCC?
+
+Resposta 39 - Você possui um período de 6 meses para elaborar o TCC. O que pedimos é que leve em consideração o tempo necessário para orientação e desenvolvimento do trabalho, 
+considerando que o orientador tem até 15 dias para o primeiro contato e 7 para os demais. 
+
+Pergunta 40 - Tenho uma dúvida sobre o projeto prático. Existe o template que deve ser seguido porém ele é só um auxílio para a entrega do projeto em si, porém existem algumas 
+seções que só serão preenchidas quando o projeto tiver de fato sido iniciado, como Validação da Solução e Registros das Evidências do Projeto. Eu sei que na versão final tudo isso será feito, 
+porém pra primeira versão pro Orientador é necessários todas as seções estarem preenchidas? Outra dúvida que fiquei foi sobre o nível de detalhamento desse documento de apoio, porque existem 
+seções como Apelo Mercadológico que pode ir muito longe, com bastante coisas a se detalhar  e se nesse documento temos que ter esse olhar maior também, acredito que seria mais trabalhoso fazé-lo 
+já que a ideia do projeto prático é justamente mostrar as habilidades principal do curso que é muito mais técnica do que de fato mercadólogica, pelo menos ao meu ver! 
+
+Resposta 40 - O ideal é enviar o documento com todas as seções preenchidas, até mesmo para teu orientador poder te ajudar, principalmente no Registro de Evidencias do Projeto e Apelo 
+Mercadológico, tu podes escrever, de forma sucinta e depois desenvolver melhor o texto com teu orientador. 
+
+Pergunta 41 - Com relação a formatação do trabalho, o modelo disponibilizado tem uma estilização pre-definida onde os títulos estão com uma indentação crescente, 
+andei dando uma pesquisada nas regras da ABNT e está diferente, lá todos os títulos começam no início da linha e até o título nível 3 estão todos em maiúsculo. Eu posso 
+efetuar essas mudanças? Outra coisa não iniciei ainda a construção da solução, pretendo terminar a parte escrita e depois criar o aplicativo. Nesta fase inicial devo apenas 
+criar o repositório e declarar no trabalho? 
+
+Resposta 41 - O templete deve ser seguido, pois a ABNT sugere normalização de trabalhos, logo não há porque se preocupar. Várias Universidades tem seu template para TCC que não seguem, 
+obrigatoriamente, as normas da ABNT. É uma boa saída... Criar o repositório e colocar no trabalho. Pode colocar sim. 
+
+Comentário 19 - Eu não consigo enviar sem selecionar um tema, pois o  botão de envio fica desabilitado.
+
+Resposta 19 - Seleciona o tema mais próximo então, para que o orientador tenha uma ideia do que se trata teu memorial. 
+
+Comentário 20 - hoje é o prazo final pra envio do TCC e meu orientador não respondeu a versão final que enviei.
+
+Resposta Atendimento PUCRS 20 - Como o prazo de retorno do orientador é de até 7 dias, pode ser que não haja resposta ainda hoje. Você pode encaminhar a versão final 
+sem orientação e aguardar a postagem da nota, o que não garante a aprovação, ou solicitar um prazo maior para receber orientação antes da entrega final. Nesse caso, há uma cobrança 
+de taxa adicional de R$ 470,90 para prorrogar a entrega por mais 3 meses. Se houver interesse, você pode solicitar para nosso e-mail meajuda.pucrsonline@uolinc.com
+
+Resposta 20 - Ou enviar mensagem para tutoria.pucrsonline@uolinc.com. 
+
+Comentário 21 - Gostaria de prorrogar a entrega do TCC.
+
+Resposta 21 - A primeira prorrogação é automática, ou seja, três meses, mais três meses, visto que és da primeira turma. Envia mensagem para meajuda.pucrsonline@uolinc.com, caso precise 
+de uma prorrogação maior. 
+
+Pergunta 42 - O prazo de 20 dias para divulgação da nota final do TCC é de 20 dias úteis ou 20 dias corridos? Porque o meu fez 20 dias corridos ontem e não saiu a nota. 
+
+Resposta 42 - Teu TCC deve estar com o professor avaliador. Tua nota deve estar saindo. Assim que sair vai no teu Perfil --> Certificados e já solicita. Levam 90 dias para ficar 
+pronto o certificado.
+
+Pergunta 43 - Acredito que não conseguirei terminar até dia 19/03. Como funciona pra pedir um prazo a mais?
+
+Resposta 43 - Manda e-mail para meajuda.pucrsonline@uolinc.com, solicitando mais prazo. 
+
+Pergunta 44 - Estou com uma dúvida em relação a citações no TCC. Eu assisti a aula sobre citações, mas mesmo assim fiquei com dúvida. 
+Pode me ajudar? No print em anexo, qual a forma correta de fazer essa citação? 
+
+Resposta 44 - Dúvidas relacionadas ao TCC devem ser encaminhadas para o e-mail: meajuda.pucrsonline@uolinc.com. 
+
+Pergunta 45 - Com a finalização do TCC e aprovação , quais os próximos passos? 
+
+Resposta Atendimeto PUCRS 45 - Você pode solicitar o seu certificado pela plataforma na aba Meu perfil – Certificado. O prazo de entrega é de até 90 dias.
+
+Pergunta 46 - Gostaria de saber como pedir um prazo maior? Se tem algum valor pra acertar.
+
+Resposta 46 - Tenta pelo e-mail: meajuda.pucrsonline@uolinc.com.
+
+Pergunta 47 - Como faço para pedir prazo extraordinário? Estou viajando muito a trabalho e isso me atrasou muito no desenvolvimento. Preciso enviar o documento sem estar 
+finalizado para pedir?
+
+Resposta Atendimento PUCRS 47 - Fique tranquilo, não é necessário fazer a solicitação do prazo extraordinário. Utilizar ele não implicará em cobrança extra ou 
+diminuição da nota.  
+
+
+
+
+
+
+
+
+
